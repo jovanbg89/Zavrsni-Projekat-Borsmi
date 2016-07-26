@@ -126,11 +126,59 @@ header section.headerTop a:active{
 main{
     margin-top: -10px;
 }
-    /*  Slider  */
-    .slider .carousel-inner .description h1{
-        font-size: 20px;
-    }
-    /*  /Slider  */
+/*  Slider  */
+/* Za slajder postoje eksterni slider_main.css i slider_responsive.css*/
+/*  /Slider  */
+
+/* PreciousSense */
+.preciousSense p{
+    font-size: 19px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #24292d;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.preciousSense h2{
+    font-size: 30px;
+    font-family: 'Playball', cursive;
+    font-weight: bold;
+    color: #24292d;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+/* Tabulator */
+.nav-tabs > li {
+    float: none;
+    margin: none;
+}
+.nav > li {
+    display: inline-block;
+}
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus {/* Potrebno je jos aditi */
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.nav-tabs > li > a {/* Potrebno je jos aditi */
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+/* Tabulator */
+
+/* /PreciousSense */
+
 /*  /Main  */
 
 

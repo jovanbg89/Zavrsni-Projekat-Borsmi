@@ -1,3 +1,6 @@
+.slider{
+        background: #e5e5e4;
+    }
 .slider .carousel-indicators .active {
     width: 14px;
     height: 14px;
@@ -15,34 +18,36 @@
 .slider .carousel-inner .left{
     background-image: none;
 }
-.slider .description{
+.slider .carousel-inner .description{
     position: absolute;
     top: 0px;
     left: 50%;
     margin-left: -129px;
 }
-.slider .description p{
+.slider .carousel-inner .description p{
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 12px;
     font-weight: bold;
+    color: #24292d;
+}
+.slider .carousel-inner .description p span img{
+    display: none;
 }
 .slider .carousel-inner{
     position: relative;
 }
 .slider .carousel-inner .description h1{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Playball', cursive;
     font-size: 20px;
     margin-top: 10px;
     font-weight: bold;
+    color: #24292d;
 }
 .slider .carousel-inner .img-circle{
     width: 100%;
     max-width: 430px;
     max-height: 430px;
     margin-top: 40px;
-}
-.slider .carousel-inner{
-    
 }
 .slider .carousel-inner .priceCircle{
     width: 90px;

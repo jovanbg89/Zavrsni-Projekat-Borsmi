@@ -1,5 +1,5 @@
 @media only screen and (min-width: 768px){
-    
+
     /* Header top */
     .headerTop .signIn ul{
         margin-right: -15px;
@@ -43,13 +43,37 @@
         margin-bottom: 0px;
         display: inline-block;
     }
+    .header .form-control{
+        margin-left: 50px;
+    }
     .header form.pull-right{
         float: right !important;
     }
     /* /Header */
+
+    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+
+    /* PreciousSense */
+    .preciousSense p{
+        font-size: 21px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        color: #24292d;
+        margin-top: 120px;
+        margin-bottom: 0px;
+    }
+    .preciousSense h2{
+        font-size: 60px;
+        font-family: 'Playball', cursive;
+        font-weight: bold;
+        color: #24292d;
+        margin-top: 0px;
+        margin-bottom: 80px;
+    }
+    /* /PreciousSense */
 }
 @media only screen and (min-width: 992px){
-    
+
     /* Header top */
     .headerTop article address{
         float: left;
@@ -76,15 +100,22 @@
     }
     .header .form-control{
         width: 150px;
+        margin-left: 50px;
     }
     .header .navbar-default div.navbar-collapse {
         display: inline-block;
         float: right;
     }
     /* /Header */
+    
+    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+
+    /* PreciousSense */
+    
+    /* /PreciousSense */
 }
 @media only screen and (min-width: 1200px){
-    
+
     /* Header */
     .header .navbar-header{
         margin-left: -15px;
@@ -96,5 +127,14 @@
         margin-right: -15px;
         padding-right: 0px;
     }
+    .header .form-control{
+        margin-left: 0px;
+    }
     /* /Header */
+    
+    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+
+    /* PreciousSense */
+    
+    /* /PreciousSense */
 }
