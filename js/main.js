@@ -16,13 +16,10 @@ $(document).ready(function () {
     $('#myTabs a:first').tab('show'); // Select first tab
     $('#myTabs a:last').tab('show'); // Select last tab
     $('#myTabs li:eq(2) a').tab('show'); // Select third tab (0-indexed)
-
-    //Funkcija za Slider sa 4 slike
-    
-
-
-
 });
+
+
+//Funkcija za Slider sa 4 slike
 $(document).ready(function () {
     $('.userComment').slick({
         dots: true,
@@ -59,4 +56,8 @@ $(document).ready(function () {
             // instead of a settings object
         ]
     });
+
 });
+
+//Funkcija za datepicker
+

@@ -112,6 +112,9 @@
         text-align: left;
         color: #d25113;
     }
+    .specialOffers .mediaContent .media{
+        margin: 10px;
+    }
     /* /Special Offers end */
 
     /* Services start */
@@ -131,6 +134,22 @@
         font-size: 15px;
     }
     /* /Services end */
+
+    /* Booking start */
+    .booking{
+        margin-bottom: 120px;
+    }
+    .booking > .container > .row > div > article > h2{
+        font-size: 60px;
+        margin-top: 110px;
+    }
+    .booking p:first-of-type{
+        font-size: 18px;
+    }
+    .booking p:last-of-type{
+        font-size: 15px;
+    }
+    /* /Booking end */
 }
 @media only screen and (min-width: 992px){
 
@@ -198,6 +217,48 @@
         margin-bottom: 60px;
     }
     /* /Special Offers end */
+
+    /* Booking start */
+    .booking img.chef{
+        margin-top: 30px;
+    }
+    .booking .form-control{
+        height: 50px;
+        padding: 6px 12px;
+    }
+    .booking .littleForm {
+        padding-bottom: 20px;
+    }
+    .booking form{
+        padding: 30px 45px 30px 45px;
+        border: 5px solid #f5f5f5;
+    }
+    .booking form .form-group {
+        margin-bottom: 20px;
+    }
+    .booking .littleForm .form-group{
+        width: 48%;
+        float: left;
+    }
+    .booking .littleForm .form-group:first-child{
+        margin-right: 4%;
+    }
+    .booking .littleForm .form-group {
+        margin-bottom: 0;
+    }
+    .booking .forms h2{
+        font-size: 60px;
+    }
+    .booking .forms button{
+        margin-top: 30px;
+    }
+    .booking .forms h2{
+        font-size: 60px;
+    }
+    .booking .forms button {
+        margin-top: 0px;
+    }
+    /* /Booking End */
 }
 @media only screen and (min-width: 1200px){
 
@@ -219,7 +280,9 @@
 
     /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
 
-    /* Special Offers starts */
-
-    /* /Special Offers end */
+    /* Booking start */
+    .booking .forms h2{
+        margin-bottom: 50px;
+    }
+    /* /Booking end */
 }

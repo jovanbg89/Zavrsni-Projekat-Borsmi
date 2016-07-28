@@ -384,8 +384,8 @@ main{
 .specialOffers .mediaContent .media{
     position: relative;
     max-width: 360px;
-    min-width: 300px;
-    margin: 10px;
+    min-width: 290px;
+    margin: 5px;
 }
 .specialOffers .mediaContent .media .media-body h3,
 .specialOffers .mediaContent .media .media-body p{
@@ -442,6 +442,49 @@ main{
     margin-bottom: 110px;
 }
 /*  Services end */
+
+/* Booking start */
+.booking > .container > .row > div > article > h2{
+    font-family: 'Playball', cursive;
+    margin-top: 70px;
+    color: #24292d;
+}
+.booking > .container > .row > div > article > img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.booking p:first-of-type{
+    font-weight: bold;
+}
+.booking p:last-of-type{
+    color: #72777b;
+}
+.booking{
+    margin-bottom: 80px;
+    font-family: 'PT Sans', sans-serif;
+}
+.booking img.chef{
+    margin-top: 60px;
+}
+.booking .form-control{
+    height: 35px;
+    padding: 0px;
+}
+.booking form{
+    padding: 15px 10px 15px 10px;
+    border: 5px solid #f5f5f5;
+}
+.booking form .form-group {
+    margin-bottom: 20px;
+}
+.booking .forms h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Playball', cursive;
+}
+
+/* /Booking end */
+
 /*  /Main  */
 
 
