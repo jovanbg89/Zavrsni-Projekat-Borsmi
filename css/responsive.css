@@ -113,6 +113,24 @@
         color: #d25113;
     }
     /* /Special Offers end */
+
+    /* Services start */
+    .services > .container > .row > div > article > p{
+        font-size: 21px;
+    }
+    .services > .container > .row > div > article > p:last-of-type{
+        font-size: 18px;
+    }
+    .services > .container > .row > div > article > h2{
+        font-size: 60px;
+    }
+    .services .meals h2{
+        font-size: 18px;
+    }
+    .services .meals p{
+        font-size: 15px;
+    }
+    /* /Services end */
 }
 @media only screen and (min-width: 992px){
 
