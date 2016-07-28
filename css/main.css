@@ -160,7 +160,7 @@ main{
     margin: 0px;
     margin-bottom: 0px;
 }
-.nav > li {
+.nav-tabs > li {
     display: inline-block;
 }
 .nav-tabs > li.active > a,
@@ -192,7 +192,7 @@ main{
 
 /* Slider Four Pics */
 .tab-content{
-    background: #fefefe;
+    background: #fff;
 }
 .tab-pane .userComment h2{
     font-size: 18px;
@@ -227,7 +227,7 @@ main{
 .tab-pane .userComment article .line{
     margin-bottom: 23px;
 }
-.tab-pane .userComment article div ul:first-child{
+.tab-pane .userComment article div.socialIcons ul:first-child{
     float: left;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -237,7 +237,7 @@ main{
     font-size: 14px;
     line-height: 20px;
 }
-.tab-pane .userComment article div ul:last-child{
+.tab-pane .userComment article div.socialIcons ul:last-child{
     float: right;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -266,6 +266,9 @@ main{
     border-top: 1px solid #ecebe8;
     padding-left: 20px;
     padding-right: 20px;
+}
+.tab-pane .slick-next {
+    right: 25px;
 }
 .tab-pane .slick-prev::before,
 .tab-pane .slick-next::before {
@@ -297,9 +300,116 @@ main{
     margin-top: -10px;
     opacity: 1;
 }
+.tab-pane .userComment article button:hover, 
+.tab-pane .userComment article button:focus, 
+.tab-pane .userComment article button:active {
+    outline: none;
+}
 /* /Slider Four Pics */
 
 /* /PreciousSense */
+
+/* Special Offers starts */
+.specialOffers{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'PT Sans', sans-serif;
+}
+.specialOffers .sideContent p:first-child {
+    font-size: 14px;
+    font-family: 'Playball', cursive;
+    color: #24292d;
+    margin-bottom: 20px;
+}
+.specialOffers .sideContent h2{
+    font-size: 16px;
+    color: #d25513;
+    margin-bottom: 20px;
+}
+
+.specialOffers .sideContent p:nth-of-type(2) {
+    font-size: 13px;
+    color: #72777b;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.specialOffers .sideContent p:nth-of-type(3) {
+    font-size: 13px;
+    color: #72777b;
+    margin-bottom: 70px;
+}
+.specialOffers .sideContent button{
+    padding: 20px 50px;
+    color: #fff;
+    background: #d25113;
+    border: 1px solid #d25113;
+    border-radius: 50px;
+    font-size: 16px;
+    box-shadow: none;
+    transition: ease 0.5s;
+    font-weight: bold;
+}
+
+.specialOffers .sideContent button:hover{
+    padding: 20px 50px;
+    color: #fff;
+    background: #aa4008;
+    transition: ease 0.5s;
+}
+.specialOffers .sideContent button:focus,
+.specialOffers .sideContent button:active{
+    outline: 2px dotted #c0bebd;
+}
+.specialOffers .media{
+    display: inline-block;
+}
+.specialOffers .mediaContent .img-circle{
+    height: 90px;
+}
+.specialOffers .mediaContent{
+    font-family: 'PT Sans', sans-serif;
+}
+.specialOffers .mediaContent h2{
+    text-align: center;
+    font-size: 36px;
+    color: #24292d;
+    margin-top: 50px;
+}
+.specialOffers .mediaContent > p{
+    font-family: 'Playball', cursive;
+    font-size: 24px;
+    text-align: center;
+    color: #d25113;
+}
+.specialOffers .mediaContent .media{
+    position: relative;
+    max-width: 360px;
+    min-width: 300px;
+    margin: 10px;
+}
+.specialOffers .mediaContent .media .media-body h3,
+.specialOffers .mediaContent .media .media-body p{
+    line-height: 30px;
+}
+.specialOffers .mediaContent .media .media-body h3{
+    font-size: 16px;
+    color: #24292d;
+    text-align: left;
+    font-weight: bold;
+}
+.specialOffers .mediaContent .media .media-body p{
+    font-size: 15px;
+    color: #72777b !important;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+}
+.specialOffers .mediaContent .media .media-body span{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+/* /Special Offers end */
 
 /*  /Main  */
 
