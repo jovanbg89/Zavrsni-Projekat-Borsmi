@@ -150,6 +150,13 @@
         font-size: 15px;
     }
     /* /Booking end */
+
+    /* Five pics start */
+    .fivePics article{
+        width: 20%;
+        float: left;
+    }
+    /* /Five pics end*/
 }
 @media only screen and (min-width: 992px){
 
@@ -259,6 +266,10 @@
         margin-top: 0px;
     }
     /* /Booking End */
+
+    /* Footer start */
+
+    /* /Footer end*/
 }
 @media only screen and (min-width: 1200px){
 
@@ -285,4 +296,8 @@
         margin-bottom: 50px;
     }
     /* /Booking end */
+
+    /* Footer start */
+
+    /* /Footer end*/
 }
