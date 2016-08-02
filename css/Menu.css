@@ -137,34 +137,121 @@ header section.headerTop a:active{
 /* /header */
 
 /* Our menu start */
-.ourMenu{
+.appetizers{
+    margin-bottom: 70px;
+}
+.products > h3 > small,
+.products > h4 > small{
+    display: none;
+}
+/* /Our menu end */
+
+/* All headings */
+.headings{
     padding-top: 100px;
     padding-bottom: 100px;
     font-family: 'PT Sans', sans-serif;
     background: #64625f;
     color: #fff;
 }
-.ourMenu h2{
+.headings h2{
     font-family: 'Playball', cursive;
 }
-.ourMenu > .container > div > img{
+.headings > .container > div > img{
     margin-bottom: 40px;
 }
-.ourMenu > .container > div > h2 > img{
+.headings > .container > div > h2 > img{
     width: 40px;
 }
-.ourMenu p:first-of-type{
+.headings p:first-of-type{
     font-weight: bold;
     margin-bottom: 20px;
 }
-.ourMenu p:last-of-type{
+.headings p:last-of-type{
     max-width: 66%;
 }
-/* /Our menu end */
+/* All headings */
+/* All headingSecond */
+.headingSecond > img{
+    color: #24292d;
+    margin-top: 110px;
+    margin-bottom: 65px;
+}
+.headingSecond > h2{
+    font-family: 'Playball', cursive;
+    font-size: 40px;
+}
+.headingSecond > p{
+    font-size: 18px;
+    margin-bottom: 65px;
+    font-weight: bold;
+}
+/* All headingSecond */
+/* All rows */
+.products > p{
+    border-bottom: 1px dotted #24292d;
+}
+.products > p > a{
+    font-size: 12px;
+    line-height: 26px;
+    font-family: 'PT Sans', sans-serif;
+}
+.products > p > a,
+.products > h3 > a,
+.products > h4 > a{
+    color: #24292d;
+    background: #fff;
+    position: relative;
+    bottom: -7px;
+    text-decoration: none;
+}
+.products > h3 > a{
+    font-size: 18px;
+    font-family: Myriad Pro;
+}
+.products > h4 > a{
+    font-size: 16px;
+    font-family: Myriad Pro;
+}
+.price > p{
+    font-size: 12px;
+    line-height: 26px;
+    position: relative;
+    bottom: -7px;
+}
+/* All rows */
+/* ThirdHeading all */
+.thirdHeading{
+    background: #707375;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.thirdHeading > h2 > img{
+    position: relative;
+    bottom: 15px;
+    margin-right: 10px;
+}
+.thirdHeading > h2{
+    line-height: 54px;
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    margin: 0px;
+}
+.thirdHeading > p{
+    font-size: 12px;
+}
+/* ThirdHeading all */
+
 
 /* Five pics start */
+.fivePics article > img{
+    margin: auto;
+}
 .fivePics article{
     width: 100%;
+    margin: 0px;
 }
 .fivePics .container-fluid {
     padding-right: 0px;

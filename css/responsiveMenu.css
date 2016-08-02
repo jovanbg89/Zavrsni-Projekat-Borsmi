@@ -56,19 +56,67 @@
         padding-bottom: 160px;
         margin-top: -20px;
     }
-    .ourMenu > .container > div > h2{
-        font-size: 76px;
+    .appetizers{
+        margin-bottom: 110px;
     }
-    .ourMenu > .container > div > h2 > img{
-        width: 70px;
+    .products > h3 > small,
+    .products > h4 > small{
+        display: inline;
+        position: relative;
+        bottom: -7px;
     }
-    .ourMenu p:first-of-type{
-        font-size: 18px;
+    .breakfast .products > p > a{
+        font-size: 14px;
     }
-    .ourMenu p:last-of-type{
-        font-size: 15px;
+    .breakfast .price > p{
+        font-size: 14px;
     }
     /* /Our menu end */
+
+    /* All headings */
+    .headings > .container > div > h2{
+        font-size: 76px;
+    }
+    .headings > .container > div > h2 > img{
+        width: 70px;
+    }
+    .headings p:first-of-type{
+        font-size: 18px;
+    }
+    .headings p:last-of-type{
+        font-size: 15px;
+    }
+    /* All headings */
+
+    /* All rows */
+    .products{
+        margin-bottom: 25px;
+    }
+    .products > p > a{
+        font-size: 18px;
+    }
+    .products > h3 > a{
+        font-size: 26px;
+    }
+    .products > h4 > a{
+        font-size: 24px;
+    }
+    .price > p{
+        font-size: 18px;
+    }
+    /* All rows */
+    /* ThirdHeading all */
+    .thirdHeading{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .thirdHeading > h2{
+        font-size: 40px;
+    }
+    .thirdHeading > p{
+        font-size: 16px;
+    }
+    /* ThirdHeading all */
 
     /* Five pics start */
     .fivePics article{
