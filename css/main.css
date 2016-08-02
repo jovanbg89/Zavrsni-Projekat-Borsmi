@@ -35,6 +35,17 @@ header section.headerTop a:hover,
 header section.headerTop a:active{
     color: #fff;
 }
+.headerTop .social li>a>span.fa{
+    color: #e39977;
+    font-size: 17px;
+    transition: ease 0.3s;
+}
+.headerTop .social li>a>span.fa:hover,
+.headerTop .social li>a>span.fa:active,
+.headerTop .social li>a>span.fa:focus{
+    color: #fff;
+    transition: ease 0.3s;
+}
 /* header top */
 
 /* Header */
@@ -124,7 +135,7 @@ header section.headerTop a:active{
 
 /*  Main  */
 main{
-    margin-top: -10px;
+    margin-top: -20px;
 }
 /*  Slider  */
 /* Za slajder postoje eksterni slider_main.css i slider_responsive.css*/
@@ -520,6 +531,7 @@ footer ul.list-inline{
 footer .list-inline>li a{
     color: #e39977;
     font-size: 19px;
+    transition: ease 0.3s;
 }
 footer .list-inline>li>a:hover,
 footer .list-inline>li>a:active,
