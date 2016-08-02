@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    //Podesavanje funkcije za brzinu automatske promene slike
+    //Podesavanje funkcije za brzinu automatske promene slike za prvi slajder na HOME stranivi i za slajder na ABOUT US stranivi.
     $('.carousel').carousel({
         interval: 6000 //changes the speed
     });

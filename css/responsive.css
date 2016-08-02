@@ -1,5 +1,5 @@
 @media only screen and (min-width: 768px){
-
+    /*////---- FOR ALL PAGES HEADER START ----////*/
     /* Header top */
     .headerTop .signIn ul{
         margin-right: -15px;
@@ -50,7 +50,15 @@
         float: right !important;
     }
     /* /Header */
+    /*////---- FOR ALL PAGES HEADER END ----////*/
 
+
+
+
+
+
+
+    /*////---- HOME PAGE START ----///  min-width 768px  /*/
     /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
 
     /* PreciousSense */
@@ -150,16 +158,185 @@
         font-size: 15px;
     }
     /* /Booking end */
+    /*////---- HOME PAGE END ----////*/
 
+
+
+
+
+
+    /*////---- ABOUT US PAGE CSS START ----///  min-width 768px  /*/
+    /* About restaurant start */
+    .aboutRestaurant{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        margin-top: -20px;
+    }
+    .aboutRestaurant > .container > div > h2{
+        font-size: 76px;
+    }
+    .aboutRestaurant > .container > div > h2 > img{
+        width: 70px;
+    }
+    .aboutRestaurant p:first-of-type{
+        font-size: 18px;
+    }
+    .aboutRestaurant p:last-of-type{
+        font-size: 15px;
+    }
+    /* /About restaurant end */
+
+    /* Who we are start */
+    .whoWe{
+        padding-bottom: 0px;
+    }
+    .whoWe > .container > .row > div > article > p{
+        font-size: 21px;
+    }
+    .whoWe > .container > .row > div > article > p:last-of-type{
+        font-size: 18px;
+    }
+    .whoWe > .container > .row > div > article > h2{
+        font-size: 60px;
+    }
+    .whoWe .meals h2{
+        font-size: 18px;
+    }
+    .whoWe .meals p{
+        font-size: 15px;
+    }
+    /* /Services end */
+
+    /* History start */
+    section.history{
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+    .history > .container > .row:first-child > div > article{
+        height: 570px;
+    }
+    /* /History end */
+    /*////---- ABOUT US PAGE CSS END ----////*/
+
+
+
+
+
+    /*////---- MENU PAGE CSS START ----///  min-width 768px  /*/
+    /* Our menu start */
+    .ourMenu{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        margin-top: -20px;
+    }
+    .appetizers{
+        margin-bottom: 110px;
+    }
+    .products > h3 > small,
+    .products > h4 > small{
+        display: inline;
+        position: relative;
+        bottom: -7px;
+    }
+    .breakfast .products > p > a{
+        font-size: 14px;
+    }
+    .breakfast .price > p{
+        font-size: 14px;
+    }
+    .products > small{
+        color: #72777b;
+        font-size: 12px;
+    }
+    article.menuProducts{
+        margin-bottom: 120px;
+    }
+    article.menuPrice{
+        margin-bottom: 120px;
+    }
+    .specials .headingSecond > p{
+        font-size: 16px;
+    }
+    /* /Our menu end */
+
+    /* All headings */
+    .headings > .container > div > h2{
+        font-size: 76px;
+    }
+    .headings > .container > div > h2 > img{
+        width: 70px;
+    }
+    .headings p:first-of-type{
+        font-size: 18px;
+    }
+    .headings p:last-of-type{
+        font-size: 15px;
+    }
+    /* All headings */
+
+    /* All heading second */
+    .headingSecond > h2{
+        font-size: 40px;
+    }
+    .headingSecond > p{
+        font-size: 18px;
+    }
+    /* All heading second */
+
+    /* All rows */
+    .products{
+        margin-bottom: 25px;
+    }
+    .products > p > a{
+        font-size: 18px;
+    }
+    .products > h3 > a{
+        font-size: 26px;
+    }
+    .products > h4 > a{
+        font-size: 24px;
+    }
+    .price > p{
+        font-size: 18px;
+    }
+    /* All rows */
+    /* ThirdHeading all */
+    .thirdHeading{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .thirdHeading > h2{
+        font-size: 40px;
+    }
+    .thirdHeading > p{
+        font-size: 16px;
+    }
+    /* ThirdHeading all */
+
+    .dessert .products > p > a{
+        font-size: 12px;
+    }
+    .dessert .price > p{
+        font-size: 12px;
+    }
+    /*////---- MENU PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- FOR ALL PAGES FOOTER START ----////*/
     /* Five pics start */
     .fivePics article{
         width: 20%;
         float: left;
     }
     /* /Five pics end*/
+    /*////---- FOR ALL PAGES FOOTER END ----////*/
 }
 @media only screen and (min-width: 992px){
-
+    /*////---- FOR ALL PAGES HEADER START ----////*/
     /* Header top */
     .headerTop article address{
         float: left;
@@ -193,7 +370,13 @@
         float: right;
     }
     /* /Header */
+    /*////---- FOR ALL PAGES HEADER END ----////*/
 
+
+
+
+
+    /*////---- HOME PAGE START ----///  min-width 992px  /*/
     /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
 
     /* Special Offers starts */
@@ -266,13 +449,68 @@
         margin-top: 0px;
     }
     /* /Booking End */
+    /*////---- HOME PAGE END ----////*/
 
-    /* Footer start */
 
-    /* /Footer end*/
+
+
+
+
+    /*////---- ABOUT US PAGE CSS START ----///  min-width 992px  /*/
+    /* Who we are start */
+    .whoWe > .container > .row > div > article > p{
+        font-size: 21px;
+    }
+    .whoWe > .container > .row > div > article > p:last-of-type{
+        font-size: 18px;
+    }
+    .whoWe > .container > .row > div > article > h2{
+        font-size: 60px;
+    }
+    .whoWe .meals h2{
+        font-size: 18px;
+    }
+    .whoWe .meals p{
+        font-size: 15px;
+    }
+    /* /Who we are end */
+    /*////---- ABOUT US PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- MENU PAGE CSS START ----///  min-width 992px  /*/
+    .specials .headingSecond > p{
+        font-size: 18px;
+    }
+    .dessert .products > p > a{
+        font-size: 18px;
+    }
+    .dessert .price > p{
+        font-size: 18px;
+    }
+    /*////---- MENU PAGE CSS END ----////*/
+
+
+
+
+
+
+
+    /*////---- BLOG PAGE CSS START ----///  min-width 992px  /*/
+    .first{
+        margin-top: 0px;
+    }
+    /*////---- BLOG PAGE CSS END ----////*/
+
+
+
+
 }
 @media only screen and (min-width: 1200px){
-
+    /*////---- FOR ALL PAGES HEADER START ----////*/
     /* Header */
     .header .navbar-header{
         margin-left: -15px;
@@ -288,16 +526,42 @@
         margin-left: 0px;
     }
     /* /Header */
+    /*////---- FOR ALL PAGES HEADER END ----////*/
 
+
+
+
+
+    /*////---- HOME PAGE START ----////*/
     /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
-
     /* Booking start */
     .booking .forms h2{
         margin-bottom: 50px;
     }
     /* /Booking end */
+    /*////---- HOME PAGE END ----////*/
 
-    /* Footer start */
 
-    /* /Footer end*/
+
+
+
+    /*////---- ABOUT US PAGE CSS START ----////*/
+
+    /*////---- ABOUT US PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- MENU PAGE CSS START ----////*/
+
+    /*////---- MENU PAGE CSS END ----////*/
+
+
+
+
+
+
+
 }

@@ -20,9 +20,18 @@
 
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
-        <link rel="stylesheet" href="css/Menu.css">
+        <!-- Slick slider with four pics! -->
+        <link href="css/slick-theme.css" rel="stylesheet" type="text/css"/>
+        <link href="css/slick.css" rel="stylesheet" type="text/css"/>
+        <!-- Slick end -->
 
-        <link href="css/responsiveMenu.css" rel="stylesheet" type="text/css"/>
+        <!-- Slider first -->
+        <link href="css/slider_main.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Slider first -->
+        <link href="css/slider_responsive.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -115,7 +124,7 @@
 
         <main>
             <!-- Our menu start -->
-            <section class="headings">
+            <section class="headings first">
                 <div class="container">
                     <div class="text-center">
                         <h2 class="text-center"><img src="img/decorationLeft.png" alt="decoration"/> Our Menu <img src="img/decorationRight.png" alt="decoration"/></h2>
@@ -212,7 +221,7 @@
                                     <div class="row">
                                         <div class="col-xs-9 col-sm-10">
                                             <article class=" products">
-                                                <h4 class="text-justify"><a href="#">$1 Oysters </a><small> (Lunch or dinner, whenever you have a seafood craving. (subject to availability))</small> </h4></h4>
+                                                <h4 class="text-justify"><a href="#">$1 Oysters </a><small> (Lunch or dinner, whenever you have a seafood craving. (subject to availability))</small> </h4>
                                             </article>
                                         </div>
                                         <div class="col-xs-3 col-sm-2">
@@ -270,12 +279,13 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <article>
+                                            <article class="menuProducts">
                                                 <div>
                                                     <div class="row">
                                                         <div class="col-xs-9 col-sm-10">
                                                             <article class=" products">
                                                                 <p class="text-justify"><a href="#">Honey Strawberry</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
                                                             </article>
                                                         </div>
                                                         <div class="col-xs-3 col-sm-2">
@@ -284,16 +294,595 @@
                                                             </article>  
                                                         </div>
                                                     </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Light Cappuccino</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$7.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Cranberry Cake</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Ham & cheese sandwich</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$8.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </article>
                                         </div>
                                         <div class="col-sm-6">
-                                            <article>
+                                            <article class="menuPrice">
                                                 <div>
                                                     <div class="row">
                                                         <div class="col-xs-9 col-sm-10">
                                                             <article class=" products">
-                                                                <p class="text-justify"><a href="#">Honey Strawberry</a></p>
+                                                                <p class="text-justify"><a href="#">Baja California Plate</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$9.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Cheesecake</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$3.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Belgian waffles</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">French Salad</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$7.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Breakfast end -->
+            
+            <!-- Main course start -->
+            <section>
+                <div class="container-fluid">
+                    <article class="thirdHeading">
+                        <h2 class="text-center"><img src="img/chefs-hat.png" alt="cup of coffe image"/>Main Course</h2>
+                        <p class="text-center text-uppercase">in your day by indulging in a hearty breakfa</p>
+                    </article>
+                </div>
+            </section>
+            <!-- /Main course end -->
+            
+            <!-- Pasta start -->
+            <section class="pasta">
+                <div class="container">
+                    <div class="row">
+                        <div>
+                            <article class="headingSecond">
+                                <img src="img/pasta.png" class="center-block" alt="lunch"/>
+                                <h2 class="text-center">Pasta</h2>
+                                <p class="text-center text-uppercase"><img src="img/doubleLine.png" alt="decoration"/>  Delicious and mouth watering delicacies  <img src="img/doubleLine.png" alt="decoration"/></p>
+                            </article>
+                        </div>
+                        <div>
+                            <article>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <article class="menuProducts">
+                                                <div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Penne Arrabiata</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Linguine Dania</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$7.70</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Tagliatelle Bolognese</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$5.90</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Linguini Carbonara</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$9.10</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <article class="menuPrice">
+                                                <div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Agliolio Linguine</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$8.80</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Creamed Mushroom Penne</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$4.30</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Butternut Ravioli</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.20</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Spaghetti Meatballs</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$5.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Pasta end -->
+            
+            <!-- Specials start -->
+            <section class="specials">
+                <div class="container">
+                    <div class="row">
+                        <div>
+                            <article class="headingSecond">
+                                <img src="img/specials.png" class="center-block" alt="lunch"/>
+                                <h2 class="text-center">Specials</h2>
+                                <p class="text-center text-uppercase"><img src="img/doubleLine.png" alt="decoration"/>  Served with either fries, mashed potatoes or steamed vegetables  <img src="img/doubleLine.png" alt="decoration"/></p>
+                            </article>
+                        </div>
+                        <div>
+                            <article>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <article class="menuProducts">
+                                                <div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Penne Arrabiata</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Linguine Dania</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$7.70</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Tagliatelle Bolognese</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$5.90</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Linguini Carbonara</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$9.10</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <article class="menuPrice">
+                                                <div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Agliolio Linguine</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$8.80</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Creamed Mushroom Penne</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$4.30</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Butternut Ravioli</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.20</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Spaghetti Meatballs</a></p>
+                                                                <small>Curabitur quas nets lacus ets nulat iaculis loremis etimus nisle varius.</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$5.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Specials end -->
+            
+            <!-- Main course start -->
+            <section>
+                <div class="container-fluid">
+                    <article class="thirdHeading">
+                        <h2 class="text-center"><img src="img/coctail.png" alt="cup of coffe image"/>Dessert & Coffee</h2>
+                        <p class="text-center text-uppercase">Enjoy the very best in desserts and coffee</p>
+                    </article>
+                </div>
+            </section>
+            <!-- /Main course end -->
+            
+            <!-- Specials start -->
+            <section class="dessert">
+                <div class="container">
+                    <div class="row">
+                        <div>
+                            <article class="headingSecond">
+                                <img src="img/dessert.png" class="center-block" alt="dessert"/>
+                                <h2 class="text-center">Dessert</h2>
+                                <p class="text-center text-uppercase"><img src="img/doubleLine.png" alt="decoration"/>  served with coffee or tea  <img src="img/doubleLine.png" alt="decoration"/></p>
+                            </article>
+                        </div>
+                        <div>
+                            <article>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <article class="menuProducts">
+                                                <div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-9">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Warm dark chocolate cake</a></p>
+                                                                <small>chocolate / orange</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2 col-sm-offset-1">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-9">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Banna Split</a></p>
+                                                                <small>chocolate / orange</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2 col-sm-offset-1">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-9">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Apple split</a></p>
+                                                                <small>chocolate / orange</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2 col-sm-offset-1">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-9">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">New York cheese cake</a></p>
+                                                                <small>chocolate / orange</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2 col-sm-offset-1">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <article class="menuProducts">
+                                                <div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-9">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Tiramisu</a></p>
+                                                                <small>chocolate / orange</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2 col-sm-offset-1">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-9">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Classic Italian Tiramisu</a></p>
+                                                                <small>chocolate / orange</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2 col-sm-offset-1">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-9">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Vanilla eclair</a></p>
+                                                                <small>chocolate / orange</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2 col-sm-offset-1">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-9">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Butter jam</a></p>
+                                                                <small>chocolate / orange</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2 col-sm-offset-1">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <article class="menuPrice">
+                                                <div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Espresso</a></p>
+                                                                <small>chocolate / orange</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Cappuccino</a></p>
+                                                                <small>chocolate / orange</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Caffe Latte</a></p>
+                                                                <small>chocolate / orange</small>
+                                                            </article>
+                                                        </div>
+                                                        <div class="col-xs-3 col-sm-2">
+                                                            <article class="clearfix price">
+                                                                <p class="text-right">$6.50</p>
+                                                            </article>  
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-9 col-sm-10">
+                                                            <article class=" products">
+                                                                <p class="text-justify"><a href="#">Macchiato</a></p>
+                                                                <small>chocolate / orange</small>
                                                             </article>
                                                         </div>
                                                         <div class="col-xs-3 col-sm-2">
@@ -312,7 +901,7 @@
                     </div>
                 </div>
             </section>
-            <!-- /Breakfast end -->
+            <!-- /Specials end -->
 
             <!-- Five pics start -->
             <section class="fivePics">
@@ -376,12 +965,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+        <script src="js/slick.js" type="text/javascript"></script>
 
         <script src="js/vendor/bootstrap.min.js" type="text/javascript"></script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/Menu.js"></script>
+        <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

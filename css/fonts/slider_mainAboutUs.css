@@ -1,25 +1,25 @@
 
-.slider{
+.sliderAbout{
     background: #e5e5e4;
 }
-.slider .carousel-indicators .active {
+.sliderAbout .carousel-indicators .active {
     width: 10px;
     height: 10px;
     border: 1px solid #fff;
     border-radius: 50%;
     margin-bottom: 1px;
 }
-.slider .carousel-indicators {
+.sliderAbout .carousel-indicators {
     left: 50%;
     bottom: 40px;
     width: auto;
     margin-left: -29px;
     display: inline-block;
 }
-.slider .carousel-inner .right{
+.sliderAbout .carousel-inner .right{
     background-image: none;
 }
-.slider .carousel-inner .left{
+.sliderAbout .carousel-inner .left{
     background-image: none;
 }
 .tab-pane .slick-dots li.slick-active button::before {
