@@ -498,7 +498,7 @@
         width: 42.6px;
     }
     /* /Forum instagram end */
-    
+
     /* Tags start */
     .tags > div{
         margin-top: 20px;
@@ -507,6 +507,18 @@
     /* /Tags end */
     /* /Right side bar end */
     /*////---- BLOG PAGE CSS END ----////*/
+
+
+
+
+
+    /*////---- BLOG LIST CSS START ----///  min-width 768px  /*/
+    .blogList .mediaList button{
+        padding: 17px 45px;
+        color: #24292d;
+        left: -84px;
+    }
+    /*////---- BLOG LIST CSS END ----////*/
 
 
 
@@ -715,6 +727,31 @@
 
 
 
+
+
+    /*////---- BLOG LIST CSS START ----///  min-width 992px  /*/
+    .blogList div.mediaList{
+        max-width: 100%;
+    }
+    .blogList .mediaList img{
+        float: left;
+        margin-right: 10px;
+    }
+    .blogList .mediaList .mediaList-body button{
+        margin-bottom: 0px;
+        margin-left: 0;
+        left: 0px;
+    }
+    .blogList .mediaList{
+        padding-right: 10px;
+        text-align: left;
+    }
+    /*////---- BLOG LIST CSS END ----////*/
+
+
+
+
+
 }
 @media only screen and (min-width: 1200px){
     /*////---- FOR ALL PAGES HEADER START ----////*/
@@ -788,6 +825,16 @@
     /* /Right side bar end */
     /*////---- BLOG PAGE CSS END ----////*/
 
+    /*////---- BLOG LIST CSS START ----////*/
+    /* List start */
+    .blogList .mediaList img{
+        margin-right: 30px;
+    }
+    .blogList .mediaList{
+        padding-right: 30px;
+    }
+    /* /List end */
+    /*////---- BLOG LIST CSS END ----////*/
 
 
 

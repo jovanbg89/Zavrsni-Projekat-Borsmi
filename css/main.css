@@ -950,6 +950,30 @@ section.history > .container > .row > div:last-child > article > p > a:hover{
 .pagi .media .media-body a{
     text-decoration: none;
 }
+.pagination{
+    display: block;
+}
+.pagination > li{
+    display: inline-block;
+}
+.pagination > li:first-of-type{
+    float: left;
+}
+.pagination > li:last-of-type{
+    float: right;
+}
+.pagination > li:last-child > a, 
+.pagination > li:last-child > span {
+    border-radius: 25px;
+    width: 35px;
+    height: 35px;
+}
+.pagination > li:first-child > a, 
+.pagination > li:first-child > span {
+    border-radius: 25px;
+    width: 35px;
+    height: 35px;
+}
 .pagination > li > a, 
 .pagination > li > span {
     margin-left: 5px;
@@ -1145,8 +1169,8 @@ h5.littleHeading{
     margin-bottom: 40px;
 }
 .tags > div{
-        padding-top: 20px;
-    }
+    padding-top: 20px;
+}
 .tags div button {
     background: none;
     border: 1px solid #ecebe8;
@@ -1169,6 +1193,78 @@ h5.littleHeading{
 /* /Side content end */
 /*////---- BLOG PAGE CSS END ----////*/
 
+
+
+
+
+
+
+/*////---- BLOG LIST CSS START ----////*/
+.blogList .mediaList{
+    border: 1px solid #ecebe8;
+    margin-bottom: 40px;
+}
+.blogList div.mediaList{
+    max-width: 370px;
+}
+.blogList .mediaList .mediaList-body h4{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.blogList .mediaList .mediaList-body h4 > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #24292d;
+}
+.blogList .mediaList .mediaList-body p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.blogList .mediaList .mediaList-body button{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.blogList .mediaList .mediaList-body a{
+    text-decoration: none;
+}
+.blogList .mediaList .mediaList-body a:nth-of-type(2){
+    margin-right: 20px;
+}
+.blogList .mediaList .mediaList-body a:nth-of-type(2):hover,
+.blogList .mediaList .mediaList-body a:nth-of-type(2):active,
+.blogList .mediaList .mediaList-body a:nth-of-type(3):hover,
+.blogList .mediaList .mediaList-body a:nth-of-type(2):active{
+    color: #d25513;
+}
+.blogList .mediaList button{
+    padding: 10px 20px;
+    color: #24292d;
+    background: #f2f2f2;
+    border: 1px solid #e8e7e4;
+    border-radius: 50px;
+    font-size: 15px;
+    box-shadow: none;
+    transition: ease 0.5s;
+    font-weight: bold;
+    display: block;
+    margin-left: 50%;
+    position: relative;
+    left: -58px;
+}
+
+.blogList .mediaList  button:focus, 
+.blogList .mediaList  button:active {
+    outline: 2px dotted #c0bebd;
+}
+.blogList .mediaList  button:hover {
+    color: #fff;
+    background: #d25113;
+    border: 1px solid #d25113;
+    transition: ease 0.5s;
+}
+/*////---- BLOG LIST CSS END ----////*/
 
 
 
