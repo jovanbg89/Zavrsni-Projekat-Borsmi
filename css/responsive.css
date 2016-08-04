@@ -326,6 +326,193 @@
 
 
 
+    /*////---- BLOG PAGE CSS START ----///  min-width 768px  /*/
+    /* Homemade pizza start */
+    .blogCenter{
+        margin-top: 120px;
+    }
+    .homemadePizza{
+        padding: 50px 30px 0 30px;
+    }
+    .homemadePizza > h2{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .homemadePizza > div{
+        border: 1px solid #e8e7e4;
+        padding: 18px;
+        margin: 0px
+    }
+    .homemadePizza > div div > article > a > p{
+        font-size: 14px;
+    }
+    .homemadePizza > figure{
+        margin-top: 40px;
+    }
+    .homemadePizza > p{
+        margin-top: 40px;
+        font-size: 15px;
+    }
+    .homemadePizza > div:nth-of-type(2){
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .homemadePizza > div:nth-of-type(2) p{
+        font-size: 21px;
+    }
+    .homemadePizza > div:nth-of-type(2) p > img:nth-of-type(1){
+        width: auto;
+        position: relative;
+        top: -7px;
+    }
+    .homemadePizza > div:nth-of-type(2) p > img:nth-of-type(2){
+        width: auto;
+        position: relative;
+        bottom: -7px;
+    }
+    .homemadePizza > h4{
+        font-size: 25px;
+        margin-top: 60px;
+    }
+    .homemadePizza > ul{
+        margin-top: 40px;
+    }
+    .homemadePizza > ul li{
+        font-size: 15px;
+    }
+    .homemadePizza > div:nth-of-type(3){
+        margin-top: 40px;
+        padding: 30px 0px 20px 0px;
+    }
+    .homemadePizza > div:nth-of-type(3) > ul:first-of-type > li > a{
+        line-height: 35px;
+    }
+    .homemadePizza > div.row:nth-of-type(4){
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .homemadePizza > div:nth-of-type(4) div > article{
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .homemadePizza > div:nth-of-type(4) div > article > a{
+        font-size: 15px;
+    }
+    /* /Homemade pizza end */
+
+    /* Related posts start */ 
+    .relatedPost h3{
+        font-size: 18px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .relatedPost .relatedPhoto{
+        border: 1px solid #e8e7e4;
+    }
+    /* /Related posts end */ 
+
+    /* William start */ 
+    .william{
+        padding: 30px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .william .media-left, 
+    .william .media-right, 
+    .william .media-body {
+        display: table-cell;
+    }
+    /* /William end */
+
+    /* Pagination start */
+    .pagi{
+        padding: 30px;
+    }
+    .pagi .media{
+        padding-top: 30px;
+    }
+    .pagi .media .media-body > div{
+        display: inline-block;
+    }
+    .pagi .media .media-body > div > h6{
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .pagi .media .media-body > div > p{
+        float: right;
+        margin-left: 30px;
+        font-size: 13px;
+    }
+    .pagi div:nth-of-type(2){
+        padding-left: 50px;
+    }
+    /* /Pagination end */
+
+    /* Comment start */
+    .comment{
+        padding: 30px;
+    }
+    .comment h3{
+        font-size: 14px;
+    }
+    .comment > p{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .comment > form > div:first-of-type{
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+    }
+    .comment > form > div:nth-of-type(2){
+        float: right;
+        width: 48%;
+        margin-left: 2%;
+    }
+    /* /Comment end */
+
+    /* Right side bar start */
+    .rightSide > article{
+        width: auto;
+    }
+    /* Rose start */
+    .rose{
+        margin-top: 0px;
+    }
+
+    .rose img{
+        margin-top: 0px;
+    }
+    /* /Rose end */
+
+    /* Categorie start */
+    .categorie{
+
+    }
+    /* /Categorie end */
+
+    /* Forum instagram start */
+    .forumInsta div > img{
+        width: auto;
+        width: 42.6px;
+    }
+    /* /Forum instagram end */
+    
+    /* Tags start */
+    .tags > div{
+        margin-top: 20px;
+        text-align: left;
+    }
+    /* /Tags end */
+    /* /Right side bar end */
+    /*////---- BLOG PAGE CSS END ----////*/
+
+
+
+
+
+
     /*////---- FOR ALL PAGES FOOTER START ----////*/
     /* Five pics start */
     .fivePics article{
@@ -503,6 +690,26 @@
     .first{
         margin-top: 0px;
     }
+    /* Homemade pizza start */
+    .homemadePizza > div:nth-of-type(3) > ul:first-of-type{
+        float: left;
+    }
+    .homemadePizza > div:nth-of-type(3) > ul:last-of-type{
+        float: right;
+    }
+    /* /Homemade pizza end */
+
+    /* Right side bar start */
+    .rose img{
+        margin: 10px 10px 10px 10px;
+    }
+    /* Forum instagram start */
+    .forumInsta div > img{
+        width: auto;
+        width: 67px;
+    }
+    /* /Forum instagram end */
+    /* /Right side bar end */
     /*////---- BLOG PAGE CSS END ----////*/
 
 
@@ -560,6 +767,26 @@
 
 
 
+
+
+
+    /*////---- BLOG PAGE CSS START ----///  min-width 1200px  /*/
+    /* Right side bar start */
+    .rose{
+        padding: 30px;
+    }
+    .rose img{
+        margin: 24px 24px 20px 24px;
+        margin-top: 30px;
+    }
+    /* Forum instagram start */
+    .forumInsta div > img{
+        width: auto;
+        width: auto;
+    }
+    /* /Forum instagram end */
+    /* /Right side bar end */
+    /*////---- BLOG PAGE CSS END ----////*/
 
 
 
