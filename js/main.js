@@ -70,6 +70,7 @@ $('.form_date').datetimepicker({
     minView: 2,
     forceParse: 0
 });
+//Funkcija za timepicker
 $('.form_time').datetimepicker({
     language: 'fr',
     weekStart: 1,

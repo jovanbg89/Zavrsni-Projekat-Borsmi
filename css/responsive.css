@@ -540,9 +540,6 @@
     .shopList form .form-group {
         width: auto;
     }
-    .shopList .listDetail{
-        float: left;
-    }
     .shopList .listDetail figure > a > img{
         width: auto;
     }
@@ -550,6 +547,7 @@
         width: 215px;
         border: 1px solid #e8e7e4;
         margin: 0 10px 30px 10px;
+        float: left;
     }
     /* Actions end */
     .shopRight .tags{
@@ -621,9 +619,48 @@
         text-align: left;
     }
     /* tab end */
+
+    /* Related product start */
+    .relatedProduct > .shopList .listDetail figure > a > img{
+        width: 340px;
+    }
+    .relatedProduct > .shopList .listDetail{
+        width: 340px;
+    }
+    /* /Related product end */
     /* /Product name end */
     /*////---- BLOG PRODUCT CSS END ----////*/
 
+
+
+
+
+
+    /*////---- CONTACT CSS START ----///  min-width 768px  /*/
+    /* Second heading start */
+    .contactToday {
+        padding-top: 110px;
+        padding-bottom: 35px;
+    }
+    .contactToday > article > h2{
+        font-size: 60px;
+    }
+    /* /Second heading end */
+    .contactUs > div > div >  div > .comment{
+        margin-bottom: 120px;
+    }
+    /* Map start */
+    .contactUs iframe{
+        height: 400px;
+    }
+    /* /Map end */
+    /* Contact and address start */
+    .contactUs .contactAddress{
+        margin-bottom: 120px;
+        text-align: left;
+    }
+    /* /Contact and address end */
+    /*////---- /CONTACT CSS END ----////*/
 
 
 
@@ -908,7 +945,35 @@
         width: 205px;
     }
     /* /Product name end */
+
+    /* Related Product start */
+    .relatedProduct{
+        margin-top: 90px;
+        margin-bottom: 120px;
+    }
+    .relatedProduct > .shopList .listDetail figure > a > img{
+        width: auto;
+    }
+    .relatedProduct > .shopList .listDetail{
+        width: 215px;
+        margin: 0 10px 30px 10px;
+        float: left;
+    }
+    /* /Related Product end */
     /*////---- BLOG PRODUCT CSS END ----////*/
+
+
+
+
+
+
+    /*////---- CONTACT CSS START ----///  min-width 992px  /*/
+    /* Map start */
+    .contactUs iframe{
+        height: 600px;
+    }
+    /* /Map end */
+    /*////---- /CONTACT CSS END ----////*/
 
 
 
@@ -971,6 +1036,8 @@
 
 
 
+
+
     /*////---- BLOG PAGE CSS START ----///  min-width 1200px  /*/
     /* Right side bar start */
     .rose{
@@ -1009,6 +1076,31 @@
     .productName > div:nth-child(2) form .form-group{
         width: 255px;
     }
-    /*////---- BLOG PRODUCT CSS END ----////*/
+
+    /* Related Product start */
+    .relatedProduct{
+        margin-top: 90px;
+        margin-bottom: 120px;
+    }
+    .relatedProduct > .shopList .listDetail figure > a > img{
+        width: auto;
+    }
+    .relatedProduct > .shopList .listDetail{
+        width: 255px;
+        margin: 0 15px 30px 15px;
+    }
+    /* /Related Product end */
+    /*////---- SHOP PRODUCT CSS END ----////*/
 
 }
+
+
+
+
+/*////---- CONTACT CSS START ----///  min-width 1200px  /*/
+/* Map start */
+.contactUs iframe{
+    height: 700px;
+}
+/* /Map end */
+/*////---- /CONTACT CSS END ----////*/

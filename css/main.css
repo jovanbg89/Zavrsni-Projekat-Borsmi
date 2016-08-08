@@ -1315,7 +1315,7 @@ h5.littleHeading{
     text-decoration: none;
     font-size: 18px;
 }
-
+/* Shop list start */
 .shopList .listDetail p{
     font-size: 15px;
 }
@@ -1356,8 +1356,77 @@ h5.littleHeading{
 .shopList .listDetail{
     margin-bottom: 30px;
 }
+/* /Shop list end */
 
-/*////---- SHOP LIST END ----////*/
+/* Right Side bar start */
+.shopRight .tags{
+    width: 290px;
+}
+.shopRight .categories{
+    width: 290px;
+}
+/* Top rated start */
+/* Range */
+.shopRight .filter{
+    border: 1px solid #ecebe8;
+    margin-bottom: 40px;
+    padding: 20px;
+    width: 290px;
+}
+input[type="range"] {
+    border-radius: 10px;
+    padding: 5px;
+}
+.filter button{
+    padding: 9px 20px;
+    color: #fff;
+    background: #d25113;
+    border: 1px solid #d25113;
+    border-radius: 50px;
+    font-size: 12px;
+    box-shadow: none;
+    transition: ease 0.5s;
+    font-weight: bold;
+    margin: 20px 10px 20px 0;
+}
+
+.filter button:hover{
+    color: #fff;
+    background: #aa4008;
+    transition: ease 0.5s;
+}
+.filter button:focus,
+.filter button:active{
+    outline: 2px dotted #c0bebd;
+}
+/* /Range */
+
+.shopRight .topRated{
+    border: 1px solid #e8e7e4;
+    width: 290px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.shopRight .topRated .media{
+    margin-top: 20px;
+}
+.shopRight .topRated h4 > a{
+    color: #24292d;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.shopRight .topRated p{
+    font-size: 15px;
+}
+
+/* Stars */
+
+/* Stars */
+/* /Top rated end */
+/* /Right Side bar end */
+/* Shop list end */
+/*////---- SHOP LIST CSS END ----////*/
 
 
 
@@ -1532,6 +1601,18 @@ h5.littleHeading{
     margin-bottom: 20px;
 }
 /* /Product name end */
+
+/* Related Product start */
+.relatedProduct{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.relatedProduct h2{
+    font-size: 32px;
+    font-family: 'Playball', cursive;
+    margin-bottom: 35px;
+}
+/* /Related Product end */
 /*////---- BLOG PRODUCT CSS END ----////*/
 
 
@@ -1540,76 +1621,86 @@ h5.littleHeading{
 
 
 
+/*////---- CONTACT CSS START ----////*/
+/* Second heading start */
+.contactToday {
+    padding-top: 70px;
+    padding-bottom: 25px;
+    background: #f5f5f5;
+    font-family: 'PT Sans', sans-serif;
+    color: #24292d;
+}
+.contactToday > img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contactToday > p:first-of-type{
+    font-size: 21px;
+}
+.contactToday > p:last-of-type{
+    font-size: 24px;
+    font-family: 'Playball', cursive;
+}
+.contactToday > h2{
+    font-family: 'Playball', cursive;
+    color: #24292d;
+    font-size: 40px;
+}
+/* /Second heading end */
+.contactUs > div > div > div > .comment{
+    margin-bottom: 80px;
+}
 
-/* Right Side bar start */
-.shopRight .tags{
-    width: 290px;
+/* Map start */
+.contactUs iframe{
+    height: 500px;
 }
-.shopRight .categories{
-    width: 290px;
+/* /Map end */
+
+/* Our locations start */
+.contactUs .contactToday{
+    background: #fff;
 }
-/* Top rated start */
-/* Range */
-.shopRight .filter{
-    border: 1px solid #ecebe8;
-    margin-bottom: 40px;
-    padding: 20px;
-    width: 290px;
+/* /Our locations end */
+
+/* Contact and address start */
+.contactUs .contactAddress{
+    margin-bottom: 80px;
 }
-input[type="range"] {
-    border-radius: 10px;
-    padding: 5px;
-}
-.filter button{
-    padding: 9px 20px;
-    color: #fff;
-    background: #d25113;
-    border: 1px solid #d25113;
-    border-radius: 50px;
-    font-size: 12px;
-    box-shadow: none;
-    transition: ease 0.5s;
+.contactUs .contactAddress > h3{
+    font-size: 21px;
     font-weight: bold;
-    margin: 20px 10px 20px 0;
+    margin-top: 45px;
+    margin-bottom: 25px;
 }
-
-.filter button:hover{
-    color: #fff;
-    background: #aa4008;
-    transition: ease 0.5s;
+.contactUs .contactAddress a{
+    text-decoration: none;
+    color: #72777b;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
-.filter button:focus,
-.filter button:active{
-    outline: 2px dotted #c0bebd;
+.contactUs .contactAddress p{
+    color: #72777b;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
-/* /Range */
-
-.shopRight .topRated{
-    border: 1px solid #e8e7e4;
-    width: 290px;
-    padding: 30px;
-    margin-bottom: 40px;
+.contactUs .contactAddress > img{
+    margin: 0 0 35px 0;
 }
-.shopRight .topRated .media{
+.contactUs .contactAddress button{
+    line-height: 20px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #72777b;
+    background: #fff;
+    font-weight: bold;
     margin-top: 20px;
 }
-.shopRight .topRated h4 > a{
-    color: #24292d;
-    text-decoration: none;
-    font-size: 18px;
+.contactUs .contactAddress button > img{
+    margin: 0 0 4px 5px;
 }
-
-.shopRight .topRated p{
-    font-size: 15px;
-}
-
-/* Stars */
-
-/* Stars */
-/* /Top rated end */
-/* /Right Side bar end */
-/* Shop list end */
-/*////---- SHOP CSS END ----////*/
+/* Contact and address start */
+/*////---- /CONTACT CSS END ----////*/
 
 
 
