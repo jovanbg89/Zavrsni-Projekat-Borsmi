@@ -524,6 +524,112 @@
 
 
 
+    /*////---- SHOP LIST CSS START ----///  min-width 768px  /*/
+    /* Actions start */
+    .shop{
+        margin-top: 120px;
+    }
+    .shopList {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .shopList > div > div > article > p {
+        text-align: left;
+    }
+    .shopList form .form-group {
+        width: auto;
+    }
+    .shopList .listDetail{
+        float: left;
+    }
+    .shopList .listDetail figure > a > img{
+        width: auto;
+    }
+    .shopList .listDetail{
+        width: 215px;
+        border: 1px solid #e8e7e4;
+        margin: 0 10px 30px 10px;
+    }
+    /* Actions end */
+    .shopRight .tags{
+        width: auto;
+    }
+    .shopRight .topRated{
+        width: auto;
+        padding: 10px;
+    }
+    .shopRight .categories{
+        width: auto;
+    }
+    .shopRight .filter{
+        width: auto;
+    }
+    .filter{
+        padding: 10px;
+    }
+    .filter a{
+        font-size: 12px;
+    }
+    .filter button{
+        padding: 7px 15px;
+    }
+    /*////---- SHOP LIST CSS END ----////*/
+
+
+
+
+
+
+    /*////---- SHOP PRODUCT CSS START ----///  min-width 768px  /*/
+    /* Product name start */
+    .productName{
+        text-align: left;
+    }
+    .productName > div:nth-child(2) form .form-group{
+        padding: 20px;
+        width: 338px;
+        position: relative;
+    }
+    .productName > div:nth-child(2) form .form-group .form-control{
+        display: inline-block;
+        margin-left: 50px;
+        width: 80%;
+    }
+    .productName > div:nth-child(2) form .form-group label{
+        display: inline-block;
+        position: absolute;
+        top: 25px;
+        left: 0px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .productName > div:nth-child(3) button:nth-of-type(3){
+        margin: 0 20px 0 20px;
+    }
+    /* Tabs start */
+    .productTab > .nav-tabs > li > a{
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+    .productTab{
+        padding: 0px;
+        border: 1px solid #f2f2f2;
+    }
+    .productTab .tab-content .tab-pane{
+        padding: 0 30px 40px 30px;
+        text-align: left;
+    }
+    /* tab end */
+    /* /Product name end */
+    /*////---- BLOG PRODUCT CSS END ----////*/
+
+
+
+
+
+
+
 
     /*////---- FOR ALL PAGES FOOTER START ----////*/
     /* Five pics start */
@@ -752,6 +858,64 @@
 
 
 
+    /*////---- SHOP LIST CSS START ----///  min-width 992px  /*/
+    /* Actions start */
+    .shopList > div > div > article > p{
+        float: left;
+    }
+    .shopList form{
+        float: right;
+    }
+    .shopList .listDetail figure > a > img{
+        width: auto;
+    }
+    .shopList .listDetail{
+        width: 252px;
+        margin: 0 15px 30px 15px;
+    }
+    /* Actions end */
+    .filter{
+        padding: 20px;
+    }
+    .filter button{
+        padding: 9px 20px;
+    }
+    .filter a{
+        font-size: 14px;
+    }
+    .shopRight .topRated{
+        padding: 30px;
+    }
+    /*////---- SHOP LIST CSS END ----////*/
+
+
+
+
+
+
+    /*////---- SHOP PRODUCT CSS START ----///  min-width 992px  /*/
+    /* Product gallery start */
+    .productGallery{
+        margin-top: 120px;
+    }
+    /* /Product gallery end */
+
+    /* Product name start */
+    .productName{
+        margin-top: 120px;
+    }
+    .productName > div:nth-child(2) form .form-group{
+        width: 205px;
+    }
+    /* /Product name end */
+    /*////---- BLOG PRODUCT CSS END ----////*/
+
+
+
+
+
+
+
 }
 @media only screen and (min-width: 1200px){
     /*////---- FOR ALL PAGES HEADER START ----////*/
@@ -837,5 +1001,14 @@
     /*////---- BLOG LIST CSS END ----////*/
 
 
+
+
+
+
+    /*////---- SHOP PRODUCT CSS START ----///  min-width 1200px  /*/
+    .productName > div:nth-child(2) form .form-group{
+        width: 255px;
+    }
+    /*////---- BLOG PRODUCT CSS END ----////*/
 
 }

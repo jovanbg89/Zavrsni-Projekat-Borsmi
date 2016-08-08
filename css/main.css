@@ -169,24 +169,24 @@ main{
     margin-bottom: 50px;
 }
 /* Tab */
-.nav-tabs {
+.preciousSense .nav-tabs {
     display: inline-block;
     border: 1px solid #e8e7e4;
     border-radius: 35px;
     background: #f2f2f2;
     margin-bottom: 60px;
 }
-.nav-tabs > li {
+.preciousSense .nav-tabs > li {
     float: none;
     margin: 0px;
     margin-bottom: 0px;
 }
-.nav-tabs > li {
+.preciousSense .nav-tabs > li {
     display: inline-block;
 }
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {/* Potrebno je jos aditi */
+.preciousSense .nav-tabs > li.active > a,
+.preciousSense .nav-tabs > li.active > a:hover,
+.preciousSense .nav-tabs > li.active > a:focus {
     color: #fff;
     cursor: default;
     background-color: #d25513;
@@ -195,7 +195,7 @@ main{
     border-radius: 35px;
     outline: medium none;
 }
-.nav-tabs > li > a {/* Potrebno je jos aditi */
+.preciousSense .nav-tabs > li > a {
     margin: 0px;
     line-height: 1.3;
     border: 0px;
@@ -206,16 +206,16 @@ main{
     border-radius: 35px;
     font-family: 'PT Sans', sans-serif;
 }
-.nav-tabs > li > a:hover{
+.preciousSense .nav-tabs > li > a:hover{
     border: 1px solid #b8470b;
 }
 /* /Tab */
 
 /* Slider Four Pics */
-.tab-content{
+.preciousSense .tab-content{
     background: #fff;
 }
-.tab-pane .userComment h2{
+.preciousSense .tab-pane .userComment h2{
     font-size: 18px;
     font-weight: bold;
     line-height: 26px;
@@ -224,7 +224,7 @@ main{
     margin-top: 30px;
     margin-bottom: 10px;
 }
-.tab-pane .userComment p{
+.preciousSense .tab-pane .userComment p{
     margin-top: 0px;
     margin-bottom: 20px;
     font-size: 13px;
@@ -233,7 +233,7 @@ main{
     color: #929292;
     font-family: 'PT Sans', sans-serif;
 }
-.tab-pane .userComment article{
+.preciousSense .tab-pane .userComment article{
     padding-left: 0px;
     padding-right: 0px;
     margin-right: 10px;
@@ -242,28 +242,28 @@ main{
     border: 1px solid #ecebe8;
     width: 240px;
 }
-.tab-pane .userComment article figure img{
+.preciousSense .tab-pane .userComment article figure img{
     width: 100%;
 }
-.tab-pane .userComment article .line{
+.preciousSense .tab-pane .userComment article .line{
     margin-bottom: 23px;
 }
-.tab-pane .userComment article div.socialIcons ul:first-child{
+.preciousSense .tab-pane .userComment article div.socialIcons ul:first-child{
     float: left;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.tab-pane .userComment article div ul li a:first-of-type{
+.preciousSense .tab-pane .userComment article div ul li a:first-of-type{
     color: #bcbcbc;
     font-size: 14px;
     line-height: 20px;
 }
-.tab-pane .userComment article div.socialIcons ul:last-child{
+.preciousSense .tab-pane .userComment article div.socialIcons ul:last-child{
     float: right;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.tab-pane .userComment article button {
+.preciousSense .tab-pane .userComment article button {
     background: none;
     border: 1px solid #ecebe8;
     border-radius: 35px;
@@ -273,30 +273,30 @@ main{
     padding: 10px 20px;
     color: #929292;
 }
-.tab-pane .userComment article button:hover,
-.tab-pane .userComment article button:focus,
-.tab-pane .userComment article button:active{
+.preciousSense .tab-pane .userComment article button:hover,
+.preciousSense .tab-pane .userComment article button:focus,
+.preciousSense .tab-pane .userComment article button:active{
     color: #d25513;
     border-color: #d25513;
 }
-.tab-pane .userComment article button:first-of-type{
+.preciousSense .tab-pane .userComment article button:first-of-type{
     margin-right: 15px;
 }
-.tab-pane .userComment article div.socialIcons{
+.preciousSense .tab-pane .userComment article div.socialIcons{
     margin-top: 30px;
     border-top: 1px solid #ecebe8;
     padding-left: 20px;
     padding-right: 20px;
 }
-.tab-pane .slick-next {
+.preciousSense .tab-pane .slick-next {
     right: 25px;
 }
-.tab-pane .slick-prev::before,
-.tab-pane .slick-next::before {
+.preciousSense .tab-pane .slick-prev::before,
+.preciousSense .tab-pane .slick-next::before {
     color: #c0bebd;
     display: none;
 }
-.tab-pane .slick-dots li button {
+.preciousSense .tab-pane .slick-dots li button {
     background: #c0bebd;
     border: 0 none;
     height: 10px;
@@ -307,11 +307,11 @@ main{
     margin-bottom: 120px;
 }
 
-.tab-pane .slick-dots li.slick-active button::before {
+.preciousSense .tab-pane .slick-dots li.slick-active button::before {
     border: 1px solid #c0bebd;
     border-radius: 50%;
 }
-.tab-pane .slick-dots li button::before {
+.preciousSense .tab-pane .slick-dots li button::before {
     font-size: 0px;
     width: 20px;
     height: 20px;
@@ -321,9 +321,9 @@ main{
     margin-top: -10px;
     opacity: 1;
 }
-.tab-pane .userComment article button:hover, 
-.tab-pane .userComment article button:focus, 
-.tab-pane .userComment article button:active {
+.preciousSense .tab-pane .userComment article button:hover, 
+.preciousSense .tab-pane .userComment article button:focus, 
+.preciousSense .tab-pane .userComment article button:active {
     outline: none;
 }
 /* /Slider Four Pics */
@@ -465,6 +465,12 @@ main{
 /*  Services end */
 
 /* Booking start */
+.form-control[disabled], 
+.form-control[readonly], 
+fieldset[disabled] .form-control {
+    background-color: #fff;
+    cursor: auto;
+}
 .booking > .container > .row > div > article > h2{
     font-family: 'Playball', cursive;
     margin-top: 70px;
@@ -955,6 +961,7 @@ section.history > .container > .row > div:last-child > article > p > a:hover{
 }
 .pagination > li{
     display: inline-block;
+    float: none;
 }
 .pagination > li:first-of-type{
     float: left;
@@ -1271,9 +1278,349 @@ h5.littleHeading{
 
 
 
+/*////---- SHOP LIST CSS START ----////*/
+.shop{
+    margin-top: 80px;
+}
+.shop a{
+    font-family: 'PT Sans', sans-serif;
+    color: #929292;
+    text-decoration: none;
+}
+/* Shop list start */
+.shopList form{
+    margin-bottom: 40px;
+}
+.shopList form .form-group{
+    width: 290px;
+}
+.shopList > div > div > article > p{
+    color: #727374;
+    line-height: 34px;
+    font-size: 15px;
+}
+.shopList .listDetail figure > a > img{
+    width: 290px;
+}
+.shopList .listDetail{
+    border: 1px solid #e8e7e4;
+    width: 290px;
+    padding-bottom: 30px;
+}
+.shopList .listDetail h4{
+    margin-top: 30px;
+}
+.shopList .listDetail h4 > a{
+    color: #24292d;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.shopList .listDetail p{
+    font-size: 15px;
+}
+.shopList .listDetail > img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shopList .listDetail > ul li a > .fa{
+    color: #b8b8b8;
+}
+.shopList .listDetail > ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #e8e7e4;
+    border-bottom: 1px solid  #e8e7e4;
+}
+.shopList .listDetail > button{
+    padding: 10px 20px;
+    color: #24292d;
+    background: #fff;
+    border: 1px solid #e8e7e4;
+    border-radius: 50px;
+    font-size: 15px;
+    transition: ease 0.5s;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.shopList .listDetail > button:focus, 
+.shopList .listDetail > button:active {
+    outline: 2px dotted #c0bebd;
+}
+.shopList .listDetail > button:hover {
+    color: #d25113;
+    border: 1px solid #d25113;
+    transition: ease 0.5s;
+}
+.shopList .listDetail{
+    margin-bottom: 30px;
+}
+
+/*////---- SHOP LIST END ----////*/
 
 
 
+
+
+
+/*////---- SHOP PRODUCT CSS START ----///  min-width 768px  /*/
+/* Product gallery start */
+.productGallery{
+    margin-top: 70px;
+}
+/* /Product gallery end */
+
+/* Product name start */
+.productName{
+    margin-top: 70px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.productName a{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color: #666666;
+    font-size: 13px;
+}
+.productName h3{
+    font-size: 24px;
+    color: #24292d;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.productName > div:first-child{
+    border-bottom: 1px solid #ecebe8;
+}
+.productName > div:first-child > div a:first-of-type{
+    margin-right: 10px;
+}
+.productName > div:first-child > div a:last-of-type{
+    margin-left: 10px;
+}
+
+.productName > div:first-child p{
+    display: inline-block;
+    margin: 20px 0 30px 0;
+}
+.productName > div:first-child p:last-of-type{
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+.productName > div:nth-child(2) p:first-child{
+    margin-top: 30px;  
+}
+.productName > div:nth-child(2) p{
+    margin-top: 20px;  
+}
+.productName > div:nth-child(2) p:nth-child(3){
+    margin-bottom: 30px;  
+}
+.productName > div:nth-child(2) form .form-group{
+    display: inline-block;
+    margin: 10px;
+}
+.productName > div:nth-child(2) form .form-group .form-control{
+    display: inline-block;
+}
+.productName > div:nth-child(3){
+    margin: 35px 0 35px 0;
+}
+.productName > div:nth-child(3) > .number{
+    width: 25px;
+}
+.productName > div:nth-child(3) > button:first-of-type{
+    border: 1px solid #ecebe8;
+    border-right: none;
+    background: #fff;
+    padding: 1px 6px;
+}
+.productName > div:nth-child(3) > button:nth-of-type(2){
+    border: 1px solid #ecebe8;
+    border-left: none;
+    background: #fff;
+    padding: 1px 6px;
+}
+.productName > div:nth-child(3) input{
+    border: 1px solid #ecebe8;
+    border-left: none;
+    border-right: none;
+}
+.productName > div:nth-child(3) > button:nth-of-type(3){
+    padding: 9px 20px;
+    color: #fff;
+    background: #d25113;
+    border: 1px solid #d25113;
+    border-radius: 50px;
+    font-size: 12px;
+    box-shadow: none;
+    transition: ease 0.5s;
+    font-weight: bold;
+    margin: 0 10px 0 10px;
+}
+
+.productName > div:nth-child(3) > button:nth-of-type(3):focus, 
+.productName > div:nth-child(3) > button:nth-of-type(3):active {
+    outline: 2px dotted #c0bebd;
+}
+.productName > div:nth-child(3) > button:nth-of-type(3):hover {
+    color: #fff;
+    background: #aa4008;
+    transition: ease 0.5s;
+}
+.productName > div:nth-child(3) ul{
+    display: inline-block
+
+}
+.productName > div:nth-child(3) ul > li > a{
+    color: #929292;  
+}
+.productName > div:nth-child(3) div{
+    padding: 30px 0 30px 0;
+}
+.productName > div:nth-child(3) div p{
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.productName > div:nth-child(3) div ul{
+    display: inline-block;
+}
+.productName > div:nth-child(3) div ul li{
+    padding: 2px;
+}
+.productTab{
+    border: 1px solid #f2f2f2;
+    padding: 0px;
+}
+.productTab .tab-content .tab-pane{
+    padding: 0 10px 40px 10px;
+    text-align: justify;
+}
+.productTab > .nav-tabs{
+    border-radius: 0px;
+    border: none;
+    
+}
+.productTab > .nav-tabs > li > a{
+    color: #000;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px 10px;
+}
+.productTab > .nav-tabs > li.active > a, 
+.productTab > .nav-tabs > li.active > a:hover, 
+.productTab > .nav-tabs > li.active > a:focus {
+    background: #f2f2f2;
+    border-radius: 0px;
+    border: 1px solid #f2f2f2;
+}
+.productTab > .nav > li > a:hover, 
+.productTab > .nav > li > a:focus {
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+}
+.productTab h4{
+    margin: 45px 0 25px 0;
+    font-family: 'Playball', cursive;
+    font-size: 24px;
+}
+.productTab p{
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+/* /Product name end */
+/*////---- BLOG PRODUCT CSS END ----////*/
+
+
+
+
+
+
+
+
+/* Right Side bar start */
+.shopRight .tags{
+    width: 290px;
+}
+.shopRight .categories{
+    width: 290px;
+}
+/* Top rated start */
+/* Range */
+.shopRight .filter{
+    border: 1px solid #ecebe8;
+    margin-bottom: 40px;
+    padding: 20px;
+    width: 290px;
+}
+input[type="range"] {
+    border-radius: 10px;
+    padding: 5px;
+}
+.filter button{
+    padding: 9px 20px;
+    color: #fff;
+    background: #d25113;
+    border: 1px solid #d25113;
+    border-radius: 50px;
+    font-size: 12px;
+    box-shadow: none;
+    transition: ease 0.5s;
+    font-weight: bold;
+    margin: 20px 10px 20px 0;
+}
+
+.filter button:hover{
+    color: #fff;
+    background: #aa4008;
+    transition: ease 0.5s;
+}
+.filter button:focus,
+.filter button:active{
+    outline: 2px dotted #c0bebd;
+}
+/* /Range */
+
+.shopRight .topRated{
+    border: 1px solid #e8e7e4;
+    width: 290px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.shopRight .topRated .media{
+    margin-top: 20px;
+}
+.shopRight .topRated h4 > a{
+    color: #24292d;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.shopRight .topRated p{
+    font-size: 15px;
+}
+
+/* Stars */
+
+/* Stars */
+/* /Top rated end */
+/* /Right Side bar end */
+/* Shop list end */
+/*////---- SHOP CSS END ----////*/
+
+
+
+
+
+
+
+
+fa-heart-o{
+    color: #e8e7e4
+}
 /* All headings */
 .headings{
     padding-top: 100px;
