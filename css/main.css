@@ -58,6 +58,9 @@ header section.headerTop a:active{
     box-shadow: none;
     font-family: 'Source Sans Pro', sans-serif;
 }
+.header > nav > div > div{
+    clear: both;
+}
 .header .navbar {
     border: none;
 }
@@ -148,6 +151,9 @@ main{
     margin-top: -20px;
 }
 /*  Slider  */
+.slider {
+    margin-top: 40px;
+}
 /* Za slajder postoje eksterni slider_main.css i slider_responsive.css*/
 /*  /Slider  */
 
@@ -215,14 +221,20 @@ main{
 .preciousSense .tab-content{
     background: #fff;
 }
+.preciousSense .tab-pane .userComment > article > div:nth-last-of-type(2) > ul:first-child > li:nth-of-type(2) > a > span{
+    
+}
 .preciousSense .tab-pane .userComment h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.preciousSense .tab-pane .userComment h2 a{
     font-size: 18px;
     font-weight: bold;
     line-height: 26px;
     color: #24292d;
     font-family: 'PT Sans', sans-serif;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    text-decoration: none;
 }
 .preciousSense .tab-pane .userComment p{
     margin-top: 0px;
@@ -413,10 +425,13 @@ main{
     line-height: 30px;
 }
 .specialOffers .mediaContent .media .media-body h3{
+    text-align: left;
+}
+.specialOffers .mediaContent .media .media-body h3 a{
     font-size: 16px;
     color: #24292d;
-    text-align: left;
     font-weight: bold;
+    text-decoration: none;
 }
 .specialOffers .mediaContent .media .media-body p{
     font-size: 15px;

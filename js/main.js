@@ -19,6 +19,78 @@ $(document).ready(function () {
 });
 
 
+
+//Funkcija za datepicker
+
+
+
+$(document).ready(function () {
+    //Povecavanje i smanjivanje
+    $('.down').click(function () {
+
+        var txt = $('.number').val();
+        if (txt <= 1) {
+            $('.number').val(1);
+        } else {
+            txt--;
+            $('.number').val(txt);
+        }
+    });
+    $('.up').click(function () {
+        var txt = $('.number').val();
+        txt++;
+        $('.number').val(txt);
+    });
+    
+    
+    
+    
+    
+    $('.preciousSense .tab-pane .userComment > article > div:nth-last-of-type(2) > ul:first-child > li:nth-of-type(2) > a > span').click(function (e){
+        e.preventDefault();
+        $('.fa-heart').toggleClass('.fa-heart-o');
+    });
+});
+
+
+//Rate star
+
+
+
+
+//Product gallery
+$(document).ready(function () {
+    $('a').click(function () {
+        var largeImage = $(this).attr('data-full');
+        $('.selected').removeClass();
+        $(this).addClass('selected');
+        $('.full img').hide();
+        $('.full img').attr('src', largeImage);
+        $('.full img').fadeIn();
+
+
+    }); // closing the listening on a click
+    $('.full img').on('click', function () {
+        var modalImage = $(this).attr('src');
+        $.fancybox.open(modalImage);
+    });
+}); //closing our doc ready
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36251023-1']);
+_gaq.push(['_setDomainName', 'jqueryscript.net']);
+_gaq.push(['_trackPageview']);
+
+(function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+});
+
+
 //Funkcija za Slider sa 4 slike
 $(document).ready(function () {
     $('.userComment').slick({
@@ -58,9 +130,8 @@ $(document).ready(function () {
     });
 
 
-});
 
-//Funkcija za datepicker
+
 $('.form_date').datetimepicker({
     weekStart: 1,
     todayBtn: 1,
@@ -82,6 +153,10 @@ $('.form_time').datetimepicker({
     maxView: 1,
     forceParse: 0
 });
+
+
+
+
 (function (b, o, i, l, e, r) {
     b.GoogleAnalyticsObject = l;
     b[l] || (b[l] =
@@ -101,10 +176,11 @@ ga('send', 'pageview');
 
 
 
-//Rate star
-$(function () {
 
-    var rating = 1.6;
+
+
+
+  $(function () {  var rating = 1.6;
 
     $(".counter").text(rating);
 
@@ -153,58 +229,10 @@ $(function () {
 
 
 
+});
+
+
     //Form select
     $('.selectpicker').selectpicker('val', 'Mustard');
 });
 
-
-
-//Product gallery
-$(document).ready(function () {
-    $('a').click(function () {
-        var largeImage = $(this).attr('data-full');
-        $('.selected').removeClass();
-        $(this).addClass('selected');
-        $('.full img').hide();
-        $('.full img').attr('src', largeImage);
-        $('.full img').fadeIn();
-
-
-    }); // closing the listening on a click
-    $('.full img').on('click', function () {
-        var modalImage = $(this).attr('src');
-        $.fancybox.open(modalImage);
-    });
-}); //closing our doc ready
-
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-36251023-1']);
-_gaq.push(['_setDomainName', 'jqueryscript.net']);
-_gaq.push(['_trackPageview']);
-
-(function () {
-    var ga = document.createElement('script');
-    ga.type = 'text/javascript';
-    ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(ga, s);
-})();
-
-$(document).ready(function () {
-    //Povecavanje i smanjivanje
-    $('.down').click(function () {
-        var txt = $('.number').val();
-        if (txt <= 1) {
-            $('.number').val(1);
-        } else {
-            txt--;
-            $('.number').val(txt);
-        }
-    });
-    $('.up').click(function () {
-        var txt = $('.number').val();
-        txt++;
-        $('.number').val(txt);
-    });
-});
