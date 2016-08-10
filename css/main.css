@@ -1338,6 +1338,9 @@ h5.littleHeading{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.shopList .listDetail > ul li > a{
+    color: #b8b8b8;
+}
 .shopList .listDetail > ul li a > .fa{
     color: #b8b8b8;
 }
@@ -1908,8 +1911,8 @@ input[type="range"] {
     background: url('style_images/arrowDown.png') no-repeat center right 10px;
     background-size: 15px 10px;
 }
-fa-heart-o{
-    color: #e8e7e4
+.fa-heart{
+    color: red;
 }
 /* All headings */
 .headings{
@@ -2099,7 +2102,43 @@ footer>div.container:last-child>a:hover{
 /* /Footer end*/
 /*////---- FOR ALL PAGES FOOTER END ----////*/
 
-
+.jq-ry-container {
+  position: relative;
+  padding: 0 5px;
+  line-height: 0;
+  display: block;
+  cursor: pointer;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.jq-ry-container[readonly="readonly"] {
+  cursor: default;
+}
+.jq-ry-container > .jq-ry-group-wrapper {
+  position: relative;
+  width: 100%;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group {
+  position: relative;
+  line-height: 0;
+  z-index: 10;
+  white-space: nowrap;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group > svg {
+  display: inline-block;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-normal-group {
+  width: 100%;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-rated-group {
+  width: 0;
+  z-index: 11;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
 
 
 

@@ -40,10 +40,29 @@ $(document).ready(function () {
 
 
 
-    $('.preciousSense .tab-pane .userComment > article > div:nth-last-of-type(2) > ul:first-child > li:nth-of-type(2) > a > span').click(function (e) {
+    $('.heart').click(function (e) {
         e.preventDefault();
         $('.fa-heart').toggleClass('.fa-heart-o');
     });
+    
+    $('.eyes').click(function (e) {
+        e.preventDefault();
+        $('.fa .fa-eye').toggleClass('.fa .fa-eye-slash');
+    });
+    
+});
+
+//heart like
+$(document).ready(function(){
+   $('.heart').click(function(){
+       $(this).toggleClass('fa fa-heart-o fa fa-heart');  
+   }); 
+});
+
+$(document).ready(function(){
+   $('.eyes').click(function(){
+       $(this).toggleClass('fa fa-eye-slash fa fa-eye');  
+   }); 
 });
 
 
@@ -88,17 +107,23 @@ $(document).ready(function () {
 
 
 $(document).ready(function(){
-   $('#eye').click(function(){
+   $('.eye').click(function(){
        $(this).toggleClass('fa fa-eye-slash fa fa-eye');
-       var eye = $('#password').attr('type');
+       var eye = $('.password').attr('type');
     if(eye == 'password'){
-        $('#password').attr('type','text');
+        $('.password').attr('type','text');
     }else{
-        $('#password').attr('type','password');
+        $('.password').attr('type','password');
     }
       
    }); 
 });
+
+
+
+
+
+
 
 
 var _gaq = _gaq || [];
@@ -207,14 +232,7 @@ $(document).ready(function () {
 
             console.log(data.rating);
         });
-
-
-
-
     });
-
-
-    //Form select
-    $('.selectpicker').selectpicker('val', 'Mustard');
 });
+
 
