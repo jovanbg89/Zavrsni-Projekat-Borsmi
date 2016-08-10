@@ -673,6 +673,34 @@
 
 
 
+    /*////---- LOGIN CSS START ----///  min-width 768px  /*/
+    .sign > div > div > div > article{
+        text-align: left;
+    }
+    .sign > div > div > div:last-child article{
+        text-align: left;
+    }
+    /*////---- /LOGIN CSS END ----////*/
+
+
+
+
+
+
+    /*////---- REGISTRATION CSS START ----///  min-width 768px  /*/
+    #dateBirth > label{
+        margin-right: 20px;
+    }
+    #gender{
+        text-align: left;
+    }
+
+    /*////---- /REGISTRATION CSS END ----////*/
+
+
+
+
+
 
     /*////---- FOR ALL PAGES FOOTER START ----////*/
     /* Five pics start */
@@ -980,6 +1008,42 @@
     }
     /* /Map end */
     /*////---- /CONTACT CSS END ----////*/
+
+
+
+
+
+    /*////---- LOGIN CSS START ----///  min-width 992px  /*/
+    .sign > div > div > div > article > form > .form-group{
+        width: 70%;
+    }
+    .sign > div > div > div h2{
+        margin-top: 120px;
+        margin-bottom: 70px;
+    }
+    .sign > div > div > div > article > form{
+        margin-bottom: 120px;
+        margin-right: 20px;
+    }
+    .sign > div > div > div:last-child article{
+        margin: 245px 0 80px 20px;
+    }
+    /*////---- /LOGIN CSS END ----////*/
+
+
+
+
+
+
+    /*////---- REGISTRATION CSS START ----///  min-width 992px  /*/
+    #dateBirth .form-group{
+        display: inline-block;
+        width: 24%;
+    }
+    .registration > .preciousSense > div:nth-child(2) > .tab-content {
+        padding: 20px 0 120px 0;
+    }
+    /*////---- /REGISTRATION CSS END ----////*/
 
 
 
