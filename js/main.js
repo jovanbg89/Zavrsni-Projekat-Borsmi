@@ -9,8 +9,8 @@ $(document).ready(function () {
     });
 
 
-    
-    
+
+
 });
 
 
@@ -44,26 +44,32 @@ $(document).ready(function () {
         e.preventDefault();
         $('.fa-heart').toggleClass('.fa-heart-o');
     });
-    
+
     $('.eyes').click(function (e) {
         e.preventDefault();
         $('.fa .fa-eye').toggleClass('.fa .fa-eye-slash');
     });
-    
+
 });
 
 //heart like
-$(document).ready(function(){
-   $('.heart').click(function(){
-       $(this).toggleClass('fa fa-heart-o fa fa-heart');  
-   }); 
+$(document).ready(function () {
+    $('.heart').click(function () {
+        $(this).toggleClass('fa fa-heart-o fa fa-heart');
+    });
 });
 
-$(document).ready(function(){
-   $('.eyes').click(function(){
-       $(this).toggleClass('fa fa-eye-slash fa fa-eye');  
-   }); 
+$(document).ready(function () {
+    $('.eyes').click(function () {
+        $(this).toggleClass('fa fa-eye-slash fa fa-eye');
+    });
+
+    $(".closeBody ").click(function () {
+        $(this).parent().hide();
+    });
 });
+
+
 
 
 //Funkcija za Slider sa 4 slike
@@ -106,17 +112,17 @@ $(document).ready(function () {
 });
 
 
-$(document).ready(function(){
-   $('.eye').click(function(){
-       $(this).toggleClass('fa fa-eye-slash fa fa-eye');
-       var eye = $('.password').attr('type');
-    if(eye == 'password'){
-        $('.password').attr('type','text');
-    }else{
-        $('.password').attr('type','password');
-    }
-      
-   }); 
+$(document).ready(function () {
+    $('.eye').click(function () {
+        $(this).toggleClass('fa fa-eye-slash fa fa-eye');
+        var eye = $('.password').attr('type');
+        if (eye == 'password') {
+            $('.password').attr('type', 'text');
+        } else {
+            $('.password').attr('type', 'password');
+        }
+
+    });
 });
 
 

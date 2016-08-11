@@ -20,10 +20,12 @@ header section.headerTop .signIn{
     margin-top: 20px;
 }
 header section.headerTop .dropdown-menu {
-    margin-left: -80px;
     min-width: 120px;
     width: 120px;
     background-color: rgba(210,85,19,0.5);
+    top: 38px;
+    right: 0px;
+    left: auto;
 }
 header section.headerTop .signIn .dropdown-menu>li>a{
     color: #fff;
@@ -138,6 +140,44 @@ header section.headerTop a:active{
     box-shadow: inset 0 1px 1px rgba(210,85,19,.075),0 0 8px rgba(210,85,19,.6);
 }
 /* /header */
+/* Modal start */
+.modal a {
+    color: #b8b8b8;
+    text-decoration: none;
+}
+.modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+    position: relative;
+    z-index: 1050;
+}
+.modal-backdrop {
+    position: relative;
+}
+.modal .modal-dialog .modal-content .modal-body{
+    position: relative;
+    padding-right: 30px;
+    margin: 10px;
+}
+.modal .modal-dialog .modal-content .modal-body > span{
+    position: absolute;
+    bottom: 50%;
+    right: 15px;
+}
+.modal .modal-dialog .modal-content .modal-body > span > a{
+    font-weight: bold;
+    font-family: 'Montez', cursive;
+    font-size: 22px;
+    line-height: 100%;
+}
+.modal .modal-dialog .modal-content .modal-body > span > a:hover,
+.modal .modal-dialog .modal-content .modal-body > span > a:focus,
+.modal .modal-dialog .modal-content .modal-body > span > a:active{
+    color: #929292;
+    outline: none;
+    border: none;
+}
+/* /Modal end */
 /*////---- FOR ALL PAGES HEADER END ----////*/
 
 
@@ -1886,9 +1926,15 @@ input[type="range"] {
     right: -10px;
     top: 0;
 }
-.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div .bug > form > .req .reqStar{
+.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div .bug > form > .req > .reqStar{
     position: absolute;
-    right: 25%;
+    right: 27%;
+    top: 0;
+    color: red;
+}
+.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane:nth-of-type(2) > section > div > div:nth-of-type(3) .bug > form > .req > .reqStar{
+    position: absolute;
+    right: 27%;
     top: 0;
     color: red;
 }
@@ -2103,41 +2149,41 @@ footer>div.container:last-child>a:hover{
 /*////---- FOR ALL PAGES FOOTER END ----////*/
 
 .jq-ry-container {
-  position: relative;
-  padding: 0 5px;
-  line-height: 0;
-  display: block;
-  cursor: pointer;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
+    position: relative;
+    padding: 0 5px;
+    line-height: 0;
+    display: block;
+    cursor: pointer;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
 .jq-ry-container[readonly="readonly"] {
-  cursor: default;
+    cursor: default;
 }
 .jq-ry-container > .jq-ry-group-wrapper {
-  position: relative;
-  width: 100%;
+    position: relative;
+    width: 100%;
 }
 .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group {
-  position: relative;
-  line-height: 0;
-  z-index: 10;
-  white-space: nowrap;
+    position: relative;
+    line-height: 0;
+    z-index: 10;
+    white-space: nowrap;
 }
 .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group > svg {
-  display: inline-block;
+    display: inline-block;
 }
 .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-normal-group {
-  width: 100%;
+    width: 100%;
 }
 .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-rated-group {
-  width: 0;
-  z-index: 11;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
+    width: 0;
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
 }
 
 
