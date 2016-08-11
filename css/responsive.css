@@ -53,6 +53,29 @@
         float: right !important;
     }
     /* /Header */
+    /* Modal start */
+    .modal-dialog {
+        width: 600px
+    }
+    .modal .modal-dialog .modal-content .modal-body{
+        padding: 20px 0 20px 0;
+    }
+    .modal .modal-dialog .modal-content table > tbody > tr.modal-body{
+        width: 100%;
+    }
+    .modal .modal-dialog .modal-content > table > tbody > .modal-body > td:last-of-type{
+        position: absolute;
+        right: -15px;
+        top: 40%;
+    }
+    .modal .modal-dialog .modal-content > table > tbody > .modal-body > .media-left{
+        float: left;
+        margin-bottom: 0px;
+    }
+    .modal .modal-dialog .modal-content > table{
+        width: 100%;
+    }
+    /* /Modal end */
     /*////---- FOR ALL PAGES HEADER END ----////*/
 
 
@@ -1042,6 +1065,9 @@
     }
     .registration > .preciousSense > div:nth-child(2) > .tab-content {
         padding: 20px 0 120px 0;
+    }
+    .registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn{
+        margin-bottom: 0px;
     }
     /*////---- /REGISTRATION CSS END ----////*/
 

@@ -65,7 +65,7 @@ $(document).ready(function () {
     });
 
     $(".closeBody ").click(function () {
-        $(this).parent().hide();
+        $(this).parent(this).parent().hide();
     });
 });
 

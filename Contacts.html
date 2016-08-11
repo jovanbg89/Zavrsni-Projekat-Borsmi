@@ -14,6 +14,7 @@
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700,700italic|Pacifico|PT+Sans+Caption&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Playball|Source+Sans+Pro:400,700,700italic,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
@@ -76,17 +77,15 @@
                                 <div class="col-sm-6 col-md-5 col-lg-4">
                                     <article class="signIn">
                                         <ul class="list-inline text-center">
-                                            <li><a href="Registration.html">Subscribe</a></li>
-                                            <li><a href="LogIn.html">Sign in</a></li>
-                                            <li>
-                                                <div class="dropdown">
-                                                    <p class="dropdown-toggle" data-toggle="dropdown">End
-                                                        <span class="caret"></span></p>
-                                                    <ul class="dropdown-menu list-inline text-center">
-                                                        <li><a href="#">Example 1</a></li>
-                                                        <li><a href="#">Example 2</a></li>
-                                                    </ul>
-                                                </div>
+                                            <li><a href="#">Subscribe</a></li>
+                                            <li><a href="#"><span class="fa fa-shopping-cart" aria-hidden="true" data-toggle="modal" data-target="#myModal"></span></a></li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                                                <ul class="dropdown-menu list-inline text-center">
+                                                    <li><a href="LogIn.html">Log in</a></li>
+                                                    <li><a href="Registration.html">Register</a></li>
+                                                </ul>
+
                                             </li>
                                         </ul>
                                     </article>
@@ -310,6 +309,109 @@
         <!-- Footer end -->
 
 
+        
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </td>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="modal-body clearfix">
+                                <td class="media-left">
+                                    <a href="#">
+                                        <img class="media-object text-left center-block" src="img/sideImg2.png" alt="Latest forum img">
+                                    </a>
+                                </td>
+                                <td>
+                                    <h4><a href="#">Lorem ipsum 1</a></h4>
+                                </td>
+                                <td>
+                                    <p>275&euro;</p>
+                                </td>
+                                <td>
+                                    <span class="closeBody"><a href="#">x</a></span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="modal-body clearfix">
+                                <td class="media-left">
+                                    <a href="#">
+                                        <img class="media-object text-left center-block" src="img/sideImg2.png" alt="Latest forum img">
+                                    </a>
+                                </td>
+                                <td>
+                                    <h4><a href="#">Lorem ipsum 2</a></h4>
+                                </td>
+                                <td>
+                                    <p>275&euro;</p>
+                                </td>
+                                <td>
+                                    <span class="closeBody"><a href="#">x</a></span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="modal-body clearfix">
+                                <td class="media-left">
+                                    <a href="#">
+                                        <img class="media-object text-left center-block" src="img/sideImg2.png" alt="Latest forum img">
+                                    </a>
+                                </td>
+                                <td>
+                                    <h4><a href="#">Lorem ipsum 3</a></h4>
+                                </td>
+                                <td>
+                                    <p>275&euro;</p>
+                                </td>
+                                <td>
+                                    <span class="closeBody"><a href="#">x</a></span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="modal-body">
+                                <td class="media-left clearfix">
+                                    <a href="#">
+                                        <img class="media-object text-left center-block" src="img/sideImg2.png" alt="Latest forum img">
+                                    </a>
+                                </td>
+                                <td>
+                                    <h4><a href="#">Lorem ipsum 4</a></h4>
+                                </td>
+                                <td>
+                                    <p>275&euro;</p>
+                                </td>
+                                <td>
+                                    <span class="closeBody"><a href="#">x</a></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="">
+                                <td>
+                                    <a href="#">Total: 1100&euro;</a>
+                                </td>
+                                <td>
+                                    <button id="modalBtn">Buy</button>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /Modal -->
 
 
 

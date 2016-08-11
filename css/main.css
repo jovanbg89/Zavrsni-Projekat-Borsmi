@@ -145,8 +145,8 @@ header section.headerTop a:active{
     color: #b8b8b8;
     text-decoration: none;
 }
-.modal-dialog {
-    width: 600px;
+.modal-dialog{
+    width: 300px;
     margin: 30px auto;
     position: relative;
     z-index: 1050;
@@ -154,21 +154,46 @@ header section.headerTop a:active{
 .modal-backdrop {
     position: relative;
 }
+.modal .modal-dialog .modal-content{
+    background: #fff;
+    padding: 10px;
+}
 .modal .modal-dialog .modal-content .modal-body{
     position: relative;
-    padding-right: 30px;
+    padding: 10px 0px 10px 0;
     margin: 10px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    margin-top: 30px;
+    display: block;
+    width: 100%;
 }
-.modal .modal-dialog .modal-content .modal-body > span{
+.modal .modal-dialog .modal-content .modal-body > td{
+    width: 25%;
+}
+.modal .modal-dialog .modal-content > table > tbody > .modal-body > td:last-of-type{
+    position: absolute;
+    right: -15px;
+    top: 0;
+}
+.modal .modal-dialog .modal-content > table > tbody > .modal-body > .media-left{
+    display: block;
+    float: none;
+    margin-bottom: 20px;
+}
+.modal .modal-dialog .modal-content > table > tbody > .modal-body > td > span{
     position: absolute;
     bottom: 50%;
-    right: 15px;
+    right: 0px;
 }
-.modal .modal-dialog .modal-content .modal-body > span > a{
+.modal .modal-dialog .modal-content > table > tbody > .modal-body span a{
     font-weight: bold;
     font-family: 'Montez', cursive;
     font-size: 22px;
     line-height: 100%;
+}
+.modal .modal-dialog .modal-content > table > tfoot > tr > td{
+    padding-left: 30px;
 }
 .modal .modal-dialog .modal-content .modal-body > span > a:hover,
 .modal .modal-dialog .modal-content .modal-body > span > a:focus,
@@ -176,6 +201,22 @@ header section.headerTop a:active{
     color: #929292;
     outline: none;
     border: none;
+}
+#modalBtn{
+    background: none;
+    border: 1px solid #ecebe8;
+    border-radius: 35px;
+    box-shadow: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: #929292;
+}
+#modalBtn:hover,
+#modalBtn:focus,
+#modalBtn:active{
+    color: #d25513;
+    border-color: #d25513;
 }
 /* /Modal end */
 /*////---- FOR ALL PAGES HEADER END ----////*/
@@ -1881,7 +1922,29 @@ input[type="range"] {
 
 
 
-
+.comment form button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px 0 15px 0;
+    color: #fff;
+    background: #d25113;
+    border: 1px solid #d25113;
+    border-radius: 50px;
+    font-size: 14px;
+    box-shadow: none;
+    transition: ease 0.5s;
+    font-weight: bold;
+}
+.comment form button:focus, 
+.comment form button:active {
+    outline: 2px dotted #c0bebd;
+    transition: ease 0.3s;
+}
+.comment form button:hover {
+    color: #fff;
+    background: #aa4008;
+    transition: ease 0.3s;
+}
 
 /*////---- REGISTRATION CSS START ----////*/
 .registration > .preciousSense > div:nth-child(2) > .nav-tabs{
@@ -1894,6 +1957,30 @@ input[type="range"] {
 .registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div select{
     height: 34px;
     width: 70%;
+}
+.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn{
+    margin-top: 20px;
+    width: 200px;
+    padding: 15px 0 15px 0;
+    color: #fff;
+    background: #d25113;
+    border: 1px solid #d25113;
+    border-radius: 50px;
+    font-size: 14px;
+    box-shadow: none;
+    transition: ease 0.5s;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn:focus, 
+.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn:active {
+    outline: 2px dotted #c0bebd;
+    transition: ease 0.3s;
+}
+.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn:hover {
+    color: #fff;
+    background: #aa4008;
+    transition: ease 0.3s;
 }
 #dateBirth .form-group select{
     width: 90%;
@@ -1940,6 +2027,9 @@ input[type="range"] {
 }
 .registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section form > .form-group{
     margin-top: 5px;
+}
+.privacy a{
+    color: red;
 }
 /*////---- /REGISTRATION CSS END ----////*/
 
