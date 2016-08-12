@@ -14,6 +14,7 @@
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700,700italic|Pacifico|PT+Sans+Caption&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Playball|Source+Sans+Pro:400,700,700italic,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
@@ -51,6 +52,90 @@
     </head>
     <body>
         <header>
+            <!-- Navbar top -->
+            <section class="headerTop">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5 center-block">
+                            <article>
+                                <address class="text-center">27 Wellesley Street West, Auckland Cit</address>
+                            </article>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="row">
+                                <div class="col-sm-offset-1 col-sm-5 col-md-offset-3 col-md-4 col-lg-offset-5 col-lg-3">
+                                    <article class="social">
+                                        <ul class="list-inline text-center">
+                                            <li><a href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
+                                            <li><a href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
+                                            <li><a href="#"><span class="fa fa-youtube-play" aria-hidden="true"></span></a></li>
+                                            <li><a href="#"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+                                            <li><a href="#"><span class="fa fa-pinterest" aria-hidden="true"></span></a></li>
+                                        </ul>
+                                    </article>
+                                </div>
+                                <div class="col-sm-6 col-md-5 col-lg-4">
+                                    <article class="signIn">
+                                        <ul class="list-inline text-center">
+                                            <li><a href="#">Subscribe</a></li>
+                                            <li><a href="#"><span class="fa fa-shopping-cart" aria-hidden="true" data-toggle="modal" data-target="#myModal"></span></a></li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                                                <ul class="dropdown-menu list-inline text-center">
+                                                    <li><a href="LogIn.html">Log in</a></li>
+                                                    <li><a href="Registration.html">Register</a></li>
+                                                </ul>
+
+                                            </li>
+                                        </ul>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /navbar top -->
+
+            <!-- Navbar -->
+            <section class="header">
+                <nav class="navbar navbar-default">
+                    <div class="container  clearfix">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"/></a>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse clearfix text-center" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav list-inline text-center clearfix">
+                                <li><a href="index.html" class="text-uppercase">Home</a></li>
+                                <li><a href="About_Us.html" class="text-uppercase">About us</a></li>
+                                <li><a href="Menu.html" class="text-uppercase">Menu</a></li>
+                                <li><a href="Shop_Product.html" class="text-uppercase">Reservations</a></li>
+                                <li><a href="#" class="text-uppercase">Gallery</a></li>
+                                <li><a href="Blog.html" class="text-uppercase">Blog</a></li>
+                                <li><a href="Contacts.html" class="text-uppercase">Contact</a></li>
+                            </ul>
+                            <form class="navbar-form navbar-right pull-right center-block text-center" role="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                                    </span>
+                                </div><!-- /input-group -->
+                            </form>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </section>
+            <!-- /navbar -->
+        </header>
             <!-- Navbar top -->
             <section class="headerTop">
                 <div class="container">
@@ -210,6 +295,105 @@
             </div>
         </footer>
         <!-- Footer end -->
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <table>
+                        <thead>
+                            <tr class="clearfix">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr class="modal-body clearfix">
+                                <td class="pull-left">
+                                    <a href="#">Total: 1100&euro;</a>
+                                </td>
+                                <td class="pull-right text-right">
+                                    <button id="modalBtn">Buy</button>
+                                </td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr class="modal-body clearfix">
+                                <td class="media-left">
+                                    <a href="#">
+                                        <img class="media-object text-left center-block" src="img/sideImg2.png" alt="Latest forum img">
+                                    </a>
+                                </td>
+                                <td>
+                                    <h4><a href="#">Lorem ipsum 1</a></h4>
+                                </td>
+                                <td>
+                                    <p>275&euro;</p>
+                                </td>
+                                <td>
+                                    <span class="closeBody"><a href="#">&times;</a></span>
+                                </td>
+                            </tr>
+
+                            <tr class="modal-body clearfix">
+                                <td class="media-left">
+                                    <a href="#">
+                                        <img class="media-object text-left center-block" src="img/sideImg2.png" alt="Latest forum img">
+                                    </a>
+                                </td>
+                                <td>
+                                    <h4><a href="#">Lorem ipsum 2</a></h4>
+                                </td>
+                                <td>
+                                    <p>275&euro;</p>
+                                </td>
+                                <td>
+                                    <span class="closeBody"><a href="#">&times;</a></span>
+                                </td>
+                            </tr>
+
+                            <tr class="modal-body clearfix">
+                                <td class="media-left">
+                                    <a href="#">
+                                        <img class="media-object text-left center-block" src="img/sideImg2.png" alt="Latest forum img">
+                                    </a>
+                                </td>
+                                <td>
+                                    <h4><a href="#">Lorem ipsum 3</a></h4>
+                                </td>
+                                <td>
+                                    <p>275&euro;</p>
+                                </td>
+                                <td>
+                                    <span class="closeBody"><a href="#">&times;</a></span>
+                                </td>
+                            </tr>
+
+                            <tr class="modal-body clearfix">
+                                <td class="media-left">
+                                    <a href="#">
+                                        <img class="media-object text-left center-block" src="img/sideImg2.png" alt="Latest forum img">
+                                    </a>
+                                </td>
+                                <td>
+                                    <h4><a href="#">Lorem ipsum 4</a></h4>
+                                </td>
+                                <td>
+                                    <p>275&euro;</p>
+                                </td>
+                                <td>
+                                    <span class="closeBody"><a href="#">&times;</a></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /Modal -->
 
 
 

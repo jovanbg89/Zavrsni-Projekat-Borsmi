@@ -41,6 +41,10 @@
     .header .navbar-default div.navbar-collapse .list-inline li{
         padding: 0px;
     }
+    .input-group-btn:last-child > .btn, 
+    .input-group-btn:last-child > .btn-group {
+        margin-left: 20px;
+    }
     .header form{
         margin-top: 0px;
         margin-bottom: 0px;
@@ -52,20 +56,21 @@
     .header form.pull-right{
         float: right !important;
     }
+    .header form {
+        margin-top: 10px;
+    }
     /* /Header */
     /* Modal start */
     .modal-dialog {
-        width: 600px
     }
     .modal .modal-dialog .modal-content .modal-body{
         padding: 20px 0 20px 0;
     }
     .modal .modal-dialog .modal-content table > tbody > tr.modal-body{
-        width: 100%;
     }
     .modal .modal-dialog .modal-content > table > tbody > .modal-body > td:last-of-type{
         position: absolute;
-        right: -15px;
+        right: 0px;
         top: 40%;
     }
     .modal .modal-dialog .modal-content > table > tbody > .modal-body > .media-left{
@@ -768,6 +773,13 @@
         display: inline-block;
         float: right;
     }
+    .input-group-btn:last-child > .btn, 
+    .input-group-btn:last-child > .btn-group {
+        margin-left: 20px;
+    }
+    .header form {
+        width: 260px;
+    }
     /* /Header */
     /*////---- FOR ALL PAGES HEADER END ----////*/
 
@@ -1093,6 +1105,10 @@
     }
     .header .form-control{
         margin-left: 0px;
+    }
+    .input-group-btn:last-child > .btn, 
+    .input-group-btn:last-child > .btn-group {
+        margin-left: -15px;
     }
     /* /Header */
     /*////---- FOR ALL PAGES HEADER END ----////*/
